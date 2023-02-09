@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "category": "Test",
+      "subcategory": "Cat1",
+      "text": "Do x",
+      "description": "X is about x",
+      "guid": "65285269-440b-44be-9d3e-0844276d4bdc",
+      "severity": "Medium",
+      "training": "https://aka.ms/AwesomeAzureArchitecture",
+      "link": "https://luke.geek.nz/"
+    }
+  ],
+  "categories": [
+    {
+      "name": "HA (Highly Avaliable)",
+      "description": "This check has not been looked at yet"
+    }
+  ],
+  "status": [
+    {
+      "name": "Not verified",
+      "description": "This check has not been looked at yet"
+    },
+    {
+      "name": "Open",
+      "description": "There is an action item associated to this check"
+    },
+    {
+      "name": "Fulfilled",
+      "description": "This check has been verified, and there are no further action items associated to it"
+    },
+    {
+      "name": "Not required",
+      "description": "Recommendation understood, but not needed by current requirements"
+    },
+    {
+      "name": "N/A",
+      "description": "Not applicable for current design"
+    }
+  ],
+  "severities": [
+    {
+      "name": "High"
+    },
+    {
+      "name": "Medium"
+    },
+    {
+      "name": "Low"
+    }
+  ],
+  "metadata": {
+    "name": "Azure Architecture - Funtional & non-functional considerations"
+  }
+}
+
