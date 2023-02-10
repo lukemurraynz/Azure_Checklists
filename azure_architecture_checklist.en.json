@@ -88,12 +88,17 @@
       "subcategory": "Customers",
       "text": "Is there a deal or customer opportunity associated with having the solution in Azure?",
       "description":"Any associated deals or customer opportunities helps to understand the potential financial benefits, vendor offerings and growth opportunities of using Azure as a platform for the solution.",
+      "severity": "Low",
       "guid": "6bcdb375-0ab2-4ab0-99da-6d55d7c892ad"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Are customers requesting the solution in Azure or the Cloud?",
+      "description":"This question is asked to determine if the solution should be deployed on Azure specifically or if the customer is open to deploying it on a different cloud platform, and tasing out any assumptions on what 'the cloud' is.",
+      "training": "https://azure.microsoft.com/resources/cloud-computing-dictionary/what-is-the-cloud?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://azure.microsoft.com/products/?WT.mc_id=AZ-MVP-5004796",
+      "severity": "Low",
       "guid": "b107d532-5af6-425c-a44e-4685e2223ace"
     },
     {
