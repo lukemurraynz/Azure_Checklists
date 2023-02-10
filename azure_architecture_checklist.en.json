@@ -63,24 +63,31 @@
       "category": "Business",
       "subcategory": "Goals",
       "text": "Is there a targeted event or date for an announcement about the solution's availability on Azure?",
+      "description": "Timeline for architecture, deployment, testing can help determine what risks, resource requirements and cost and the delivery of solution.",
       "guid": "786d60b9-6c97-4be9-a519-0483845c986c"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
-      "text": "Does the solution impact a Team, Department or organisation?",
+      "text": "Does the solution impact a Team, Department or organization?",
+      "description": "Impact on a team, department, or organization helps determine the scope and potential consequences of the solution, ensuring that all relevant stakeholders are considered and accounted for in the decision-making process.",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/architecture/guide/?WT.mc_id=AZ-MVP-5004796",
       "guid": "237de143-b16c-421d-9aa9-b64604489a8f"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "What are the customer expecations?",
+      "description": "Customer expectations helps ensure that the solution meets the needs and desires of the end-users, and make sure business outcomes match customer expectations.",
+      "severity": "High",
       "guid": "b2912156-a114-475e-99f5-41acccd97937"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Is there a deal or customer opportunity associated with having the solution in Azure?",
+      "description":"Any associated deals or customer opportunities helps to understand the potential financial benefits, vendor offerings and growth opportunities of using Azure as a platform for the solution.",
       "guid": "6bcdb375-0ab2-4ab0-99da-6d55d7c892ad"
     },
     {
