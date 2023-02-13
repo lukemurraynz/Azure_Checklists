@@ -6,9 +6,9 @@
       "text": "What level of AI is of interest? (Bots, Cognitive Service API, Data Scientist platforms, Machine Learning models)",
       "description": "The level of interest can vary depending on the individual or organization's goals, such as developing practical applications for specific tasks, advancing basic research on AI, or exploring the potential ethical and societal implications of highly intelligent machines.",
       "guid": "65285269-440b-44be-9d3e-0844276d4bdc",
+      "severity": "Low",
       "training": "https://learn.microsoft.com/certifications/azure-ai-engineer/?WT.mc_id=AZ-MVP-5004796",
-      "link": "https://azure.microsoft.com/solutions/ai/?WT.mc_id=AZ-MVP-5004796",
-      "severity": "Low"
+      "link": "https://azure.microsoft.com/solutions/ai/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
@@ -16,386 +16,452 @@
       "text": "Why are we moving the solution to Azure?",
       "description": "Understand the reasoning behind the decision to move to a cloud platform like Azure. Helps to validate the end result reaches this goal.",
       "guid": "ca5f17f1-54e3-4aa3-9928-29e7e3161836",
+      "severity": "Medium",
       "training": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/?WT.mc_id=AZ-MVP-5004796",
-      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/motivations?WT.mc_id=AZ-MVP-5004796",
-      "severity": "Medium"
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/motivations?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
       "text": "What are the business objectives or quantifiable business goals?",
       "description": "What is the business objectives (ie Increased sales revenue, cost reduction, customer satisaction, employee productivity",
-      "training": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/business-outcomes/business-outcome-template?WT.mc_id=AZ-MVP-5004796",
-      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/business-outcomes/?WT.mc_id=AZ-MVP-5004796",
       "guid": "87af467a-1f89-435b-ba43-324f24811633",
-      "severity": "Medium"
+      "severity": "Medium",
+      "training": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/business-outcomes/business-outcome-template?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/strategy/business-outcomes/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
       "text": "What outcomes will you achieve for customer?",
       "description": "What is the  objectives for the customer? What do they want to achieve using this solution",
-      "training": "https://learn.microsoft.com/azure/architecture/framework/resiliency/design-requirements?WT.mc_id=AZ-MVP-5004796",
-      "link": "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/build-for-business?WT.mc_id=AZ-MVP-5004796",
+      "guid": "182aa517-4269-4440-88ae-7d7e4743276c",
       "severity": "Medium",
-      "guid": "182aa517-4269-4440-88ae-7d7e4743276c"
+      "training": "https://learn.microsoft.com/azure/architecture/framework/resiliency/design-requirements?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://learn.microsoft.com/azure/architecture/guide/design-principles/build-for-business?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
       "text": "Is there a timeline for building the solution Azure?",
       "description": "Asking about the timeline for building a solution in Azure is important to determine resource allocation, budgeting, prioritization, and setting stakeholder expectations.",
-      "severity": "Medium",
-      "guid": "8bdbf55b-ce61-49e8-a03f-98879424d626"
-
+      "guid": "8bdbf55b-ce61-49e8-a03f-98879424d626",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
       "text": "How many people will be accessing the solution?",
       "description": "Asking about the number of people accessing the solution helps to determine the necessary resources and scalability required to accommodate the expected traffic and usage.      ",
-      "training": "https://learn.microsoft.com/azure/architecture/framework/?WT.mc_id=AZ-MVP-5004796",
-      "link": "https://learn.microsoft.com/azure/architecture/framework/resiliency/design-requirements?WT.mc_id=AZ-MVP-5004796",
+      "guid": "8739648b-662d-46c1-9f51-2965398e6dfd",
       "severity": "Medium",
-      "guid": "8739648b-662d-46c1-9f51-2965398e6dfd"
+      "training": "https://learn.microsoft.com/azure/architecture/framework/?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://learn.microsoft.com/azure/architecture/framework/resiliency/design-requirements?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
       "text": "Is there a targeted event or date for an announcement about the solution's availability on Azure?",
       "description": "Timeline for architecture, deployment, testing can help determine what risks, resource requirements and cost and the delivery of solution.",
-      "guid": "786d60b9-6c97-4be9-a519-0483845c986c"
+      "guid": "786d60b9-6c97-4be9-a519-0483845c986c",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Goals",
       "text": "Does the solution impact a Team, Department or organization?",
       "description": "Impact on a team, department, or organization helps determine the scope and potential consequences of the solution, ensuring that all relevant stakeholders are considered and accounted for in the decision-making process.",
+      "guid": "237de143-b16c-421d-9aa9-b64604489a8f",
       "severity": "Medium",
-      "link": "https://learn.microsoft.com/azure/architecture/guide/?WT.mc_id=AZ-MVP-5004796",
-      "guid": "237de143-b16c-421d-9aa9-b64604489a8f"
+      "link": "https://learn.microsoft.com/azure/architecture/guide/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "What are the customer expecations?",
       "description": "Customer expectations helps ensure that the solution meets the needs and desires of the end-users, and make sure business outcomes match customer expectations.",
-      "severity": "High",
-      "guid": "b2912156-a114-475e-99f5-41acccd97937"
+      "guid": "b2912156-a114-475e-99f5-41acccd97937",
+      "severity": "High"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Is there a deal or customer opportunity associated with having the solution in Azure?",
-      "description":"Any associated deals or customer opportunities helps to understand the potential financial benefits, vendor offerings and growth opportunities of using Azure as a platform for the solution.",
+      "description": "Any associated deals or customer opportunities helps to understand the potential financial benefits, vendor offerings and growth opportunities of using Azure as a platform for the solution.",
+      "guid": "6bcdb375-0ab2-4ab0-99da-6d55d7c892ad",
       "severity": "Low",
-      "guid": "6bcdb375-0ab2-4ab0-99da-6d55d7c892ad"
+      "link": "https://partner.microsoft.com/en-US/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Are customers requesting the solution in Azure or the Cloud?",
-      "description":"This question is asked to determine if the solution should be deployed on Azure specifically or if the customer is open to deploying it on a different cloud platform, and tasing out any assumptions on what 'the cloud' is.",
-      "training": "https://azure.microsoft.com/resources/cloud-computing-dictionary/what-is-the-cloud?WT.mc_id=AZ-MVP-5004796",
-      "link": "https://azure.microsoft.com/products/?WT.mc_id=AZ-MVP-5004796",
+      "description": "This question is asked to determine if the solution should be deployed on Azure specifically or if the customer is open to deploying it on a different cloud platform, and tasing out any assumptions on what 'the cloud' is.",
+      "guid": "b107d532-5af6-425c-a44e-4685e2223ace",
       "severity": "Low",
-      "guid": "b107d532-5af6-425c-a44e-4685e2223ace"
+      "training": "https://azure.microsoft.com/resources/cloud-computing-dictionary/what-is-the-cloud?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://azure.microsoft.com/products/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "How many customers do you have?",
-      "guid": "8bb12307-ca5f-417f-854e-3aa3692829e7"
+      "description": "This question is asked to help determine the number of customers that will be using the solution, and the potential impact of the solution on the customer base.",
+      "guid": "8bb12307-ca5f-417f-854e-3aa3692829e7",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Are customers willing to work with you to pilot the solution in Azure?",
-      "guid": "e3161836-87af-4467-a1f8-935bda43324f"
+      "description": "Asking about the willingness of customers to pilot a solution in Azure can help to assess their level of commitment and collaboration in the implementation process.",
+      "guid": "e3161836-87af-4467-a1f8-935bda43324f",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/architecture/serverless-quest/poc-pilot?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Are your customers already using Azure?",
-      "guid": "24811633-182a-4a51-9426-944008ae7d7e"
+      "description": "This question can help determine if the customer, already has a base in Azure, and their experience level",
+      "guid": "24811633-182a-4a51-9426-944008ae7d7e",
+      "severity": "Medium",
+      "link": "https://azure.microsoft.com/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
       "text": "Are customers already comfortable using Azure/Cloud?",
-      "guid": "4743276c-8bdb-4f55-ace6-19e8a03f9887"
+      "description": "This question can help determine the customers experience level, and the likelihood of Cloud native solutions and training requirements.",
+      "guid": "4743276c-8bdb-4f55-ace6-19e8a03f9887",
+      "severity": "Medium",
+      "training": "https://learn.microsoft.com/training/?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://azure.microsoft.com/explore/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Customers",
-      "text": "Are your customers already using services like M365, O365 or D365?",
-      "guid": "9424d626-786d-460b-a6c9-7be985190483"
+      "text": "Are your customers already using services like M365, or D365?",
+      "description": "Asking about the use of M365 and D365 helps determine the integration possibilities with existing Microsoft solutions (ie Azure Active Directory), streamlining the overall solution architecture.",
+      "guid": "9424d626-786d-460b-a6c9-7be985190483",
+      "severity": "Medium",
+      "training": "https://azure.microsoft.com/resources/training-and-certifications/?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://azure.microsoft.com/products/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
-      "text": "Who are the ISV's partners for professional services?",
-      "guid": "845c986c-b291-4215-9a11-475e39f541ac"
+      "text": "Who are the ISV's (independent software vendors) partners for professional services?",
+      "description": "Asking about ISV partners helps identify potential support resources and helps ensure the availability of necessary expertise and skills in professional services for the solution being architected.",
+      "guid": "845c986c-b291-4215-9a11-475e39f541ac",
+      "severity": "Medium",
+      "link": "https://azuremarketplace.microsoft.com/marketplace/consulting-services?exp=ubp8"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "Do customers work with partners to implement and manage the solution?",
-      "guid": "ccd97937-6bcd-4b37-90ab-2ab039da6d55"
+      "description": "Partner involvement helps determine the level of support and resources needed for solution implementation and management, and can also help identify any potential barriers or challenges in these areas.",
+      "guid": "ccd97937-6bcd-4b37-90ab-2ab039da6d55",
+      "severity": "Medium",
+      "link": "https://partner.microsoft.com/"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "Who are the partners?",
-      "guid": "d7c892ad-b107-4d53-85af-625ca44e4685"
+      "description": "This question is intended to find contact details for any partners and the process for engagement etc",
+      "guid": "d7c892ad-b107-4d53-85af-625ca44e4685",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "Are they also Microsoft partners?",
-      "guid": "e2223ace-8bb1-4230-9ca5-f17f154e3aa3"
+      "description": "This questions is asked to determine if they are Microsoft partners, and their partner status.",
+      "guid": "e2223ace-8bb1-4230-9ca5-f17f154e3aa3",
+      "severity": "Low",
+      "link": "https://partner.microsoft.com/"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "What does a typical engagement look like?",
-      "guid": "692829e7-e316-4183-987a-f467a1f8935b"
+      "description": "This questions is asked to determine the processes around engaging and working with any relevant partners",
+      "guid": "692829e7-e316-4183-987a-f467a1f8935b",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "Will the partner need access to Azure or the application?",
-      "guid": "42d78e79-d17a-473b-82a5-a67e7a8ed4b3"
+      "description": "Asking about partner access helps determine the necessary security and permissions requirements, and helps ensure that the right level of access is granted for a successful implementation and management of the solution.",
+      "guid": "42d78e79-d17a-473b-82a5-a67e7a8ed4b3",
+      "severity": "Medium",
+      "training": "https://learn.microsoft.com/training/modules/intro-to-azure-lighthouse/?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://learn.microsoft.com/azure/lighthouse/overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "Is the partner or support provider located in the same region as the users?",
-      "guid": "0e37c3e2-9711-4b23-93ce-ee079b598def"
+      "description": "Asking about the location of the partner or support provider in relation to the users helps ensure low latency and fast support in case of any issues. It also can assist with designs around security.",
+      "guid": "0e37c3e2-9711-4b23-93ce-ee079b598def",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Partners",
       "text": "Should your partners also be aware of how to implement the solution on Azure?",
-      "guid": "da43324f-2481-4163-9182-aa5174269440"
+      "description": "Asking about the partners' knowledge of implementing the solution on Azure helps ensure that the implementation can be done smoothly and effectively, without relying solely on a single point of expertise.",
+      "guid": "da43324f-2481-4163-9182-aa5174269440",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Industry",
       "text": "What industry will this solution or customer operate in? (Retail, Healthcare, Federal, Insurance)",
-      "guid": "08ae7d7e-4743-4276-a8bd-bf55bce619e8"
+      "description": "Asking about the industry helps determine the specific regulatory requirements and compliance needs that must be considered and addressed in the solution architecture.",
+      "guid": "08ae7d7e-4743-4276-a8bd-bf55bce619e8",
+      "severity": "Medium",
+      "training": "https://www.microsoft.com/industry?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://azure.microsoft.com/solutions/industries/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Industry",
       "text": "What roles in that industry do customers have (e.g Healthcare: payer, provider, research, pharma, etc)",
-      "guid": "a03f9887-9424-4d62-9786-d60b96c97be9"
+      "description": "Asking about the specific roles within an industry helps tailor the solution to meet the unique needs and requirements of each customer, ensuring the solution is optimized for their specific use case.",
+      "guid": "a03f9887-9424-4d62-9786-d60b96c97be9",
+      "severity": "High"
     },
     {
       "category": "Business",
       "subcategory": "Industry",
       "text": "Are there any special industry/compliance security requirements?",
-      "guid": "85190483-845c-4986-ab29-12156a11475e"
+      "description": "Asking about special security requirements helps ensure that the solution meets necessary compliance standards and protects sensitive data, ensuring the security and privacy of customers' information.",
+      "guid": "85190483-845c-4986-ab29-12156a11475e",
+      "severity": "High",
+      "link": "https://learn.microsoft.com/compliance/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Industry",
       "text": "Are there government regulations that need to be considered?",
-      "guid": "39f541ac-ccd9-4793-96bc-db3750ab2ab0"
+      "description": "Asking about government regulations helps ensure that the solution meets all necessary legal requirements and complies with industry-specific regulations, avoiding any potential legal or financial repercussions.",
+      "guid": "39f541ac-ccd9-4793-96bc-db3750ab2ab0",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/compliance/regulatory/offering-home?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Industry",
       "text": "Will the solution be required to run in certain Azure datacenters (Government or Geo specific)?",
-      "guid": "39da6d55-d7c8-492a-bb10-7d5325af625c"
+      "description": "Asking about the required Azure datacenters helps determine where the solution will be hosted and ensures compliance with any specific geographic or government-mandated regulations regarding data storage and processing.",
+      "guid": "39da6d55-d7c8-492a-bb10-7d5325af625c",
+      "severity": "High",
+      "link": "https://azure.microsoft.com/explore/global-infrastructure/geographies/?WT.mc_id=AZ-MVP-5004796#overview"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
       "text": "Do customers host the solution themselves?",
-      "guid": "a44e4685-e222-43ac-b8bb-12307ca5f17f"
+      "description": "Asking about customers hosting the solution themselves helps determine who is responsible for maintaining the infrastructure and how the solution will be deployed, enabling the architect to make appropriate design choices to meet the customers' needs.",
+      "guid": "a44e4685-e222-43ac-b8bb-12307ca5f17f",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
       "text": "Do you offer a hosting service?",
-      "guid": "154e3aa3-6928-429e-9e31-6183687af467"
+      "description": "Asking about hosting service helps determine if Microsoft Azure will be the primary hosting solution for the solution being architected (ie Hybrid)",
+      "guid": "154e3aa3-6928-429e-9e31-6183687af467",
+      "severity": "Low",
+      "link": "https://azure.microsoft.com/pricing/tco/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
-      "text": "If it's a hosted model, where is it hosted?",
-      "guid": "a1f8935b-da43-4324-b248-11633182aa51"
-    },
-    {
-      "category": "Business",
-      "subcategory": "Hosting",
-      "text": "If it's hosted in a competitor cloud, what does the architecuter look like? How much does it cost to host today?",
-      "guid": "74269440-08ae-47d7-b474-3276c8bdbf55"
+      "text": "If it's hosted in a competitor cloud, what does the architecture look like? How much does it cost to host today?",
+      "description": "Asking about the current hosting situation and costs helps provide context and a comparison for making informed decisions about using Microsoft Azure as a hosting option, and helps determine the feasibility and potential cost savings of transitioning to Azure.",
+      "guid": "74269440-08ae-47d7-b474-3276c8bdbf55",
+      "severity": "Low",
+      "link": "https://azure.microsoft.com/pricing/tco/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
       "text": "Will you be migrating existing customers to the cloud?",
-      "guid": "bce619e8-a03f-4988-9942-4d626786d60b"
+      "description": "Migrating existing customers to the cloud helps determine the level of complexity and effort involved in moving the solution to Azure, and helps identify any potential challenges or dependencies that must be considered during the migration process.",
+      "guid": "bce619e8-a03f-4988-9942-4d626786d60b",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
       "text": "Is the cloud solution for new customers only?",
-      "guid": "96c97be9-8519-4048-9845-c986cb291215"
+      "description": "Asking about the target audience for the cloud solution helps determine if the solution is designed for new customers only or if it will also be used to support existing customers, affecting the design choices and overall strategy for the solution.",
+      "guid": "96c97be9-8519-4048-9845-c986cb291215",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
       "text": "Will you continue to onboard customers into your existing hosting environment?",
-      "guid": "6a11475e-39f5-441a-accd-979376bcdb37"
+      "description": "Asking about continuing to onboard customers into existing hosting environment helps determine if the solution will be used exclusively in Microsoft Azure or if a hybrid approach with both Azure and existing hosting will be used, impacting the design choices and overall strategy for the solution.",
+      "guid": "6a11475e-39f5-441a-accd-979376bcdb37",
+      "severity": "Medium",
+      "link": "https://azure.microsoft.com/solutions/hybrid-cloud-app/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Hosting",
       "text": "Is the cloud only for certain kinds of customers?",
-      "guid": "50ab2ab0-39da-46d5-9d7c-892adb107d53"
+      "description": "Asking about the target audience for the cloud solution helps determine if the solution will be designed for specific types of customers, affecting the design choices and overall strategy for the multi-tenant architecture.",
+      "guid": "50ab2ab0-39da-46d5-9d7c-892adb107d53",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/architecture/guide/multitenant/overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Competitors",
       "text": "What are the strategic advantages of the solution, compared to competitors?",
-      "guid": "25af625c-a44e-4468-9e22-23ace8bb1230"
+      "description": "Asking about the strategic advantages of the solution helps identify the unique value proposition and differentiators for the solution, providing direction and focus for the design and development, and positioning the solution competitively in the market.",
+      "guid": "25af625c-a44e-4468-9e22-23ace8bb1230",
+      "severity": "High"
     },
     {
       "category": "Business",
       "subcategory": "Competitors",
       "text": "What is the strategy for your solution in the marketplace?",
-      "guid": "7ca5f17f-154e-43aa-9692-829e7e316183"
+      "description": "Asking about the marketplace strategy helps to determine the target audience, the competition, and the revenue model of the solution, which can inform the design and implementation on Azure.",
+      "guid": "7ca5f17f-154e-43aa-9692-829e7e316183",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Competitors",
       "text": "Do you have a differentiated solution?",
+      "description": "Asking if the solution is differentiated helps to understand the unique value proposition and identify potential competitive advantages, which can inform the design and implementation on Azure to better meet the needs and goals of the solution.",
       "guid": "3547c134-7dc5-4602-aa71-ffe1cd15dd2f",
-      "training": "https://docs.microsoft.com/learn/paths/secure-networking-infrastructure/",
-      "link": "https://www.mindtools.com/pages/article/newSTR_82.htm"
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Competitors",
       "text": "Who are the solution's competitors? ",
+      "description": "Asking about the solution's competitors helps to understand the market landscape, identify potential challenges and opportunities",
       "guid": "0d5e772d-41e3-4611-ac57-b4a4b1410d43",
-      "training": "https://docs.microsoft.com/learn/paths/secure-application-delivery/"
+      "severity": "Low",
+      "link": "https://appsource.microsoft.com/marketplace/partner-dir"
     },
     {
       "category": "Business",
       "subcategory": "Competitors",
       "text": "Are customers finding new 'substitutes' for your solution?",
+      "description": "Asking if customers are finding new substitutes for a solution helps to assess the level of competition and determine if the solution is still relevant in the market. This can also help with roadmap items and longevity of solution.",
       "guid": "958a8c22-89b3-4d6b-97cf-c645461e1a3e",
-      "training": "https://docs.microsoft.com/learn/paths/secure-application-delivery/"
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Competitors",
       "text": "How can Azure make your solution more competitive?",
+      "description": "Helps to identify ways in which utilizing Microsoft Azure's features and capabilities can enhance the solution and provide a competitive advantage in the market.",
       "guid": "3453a3c8-6396-448b-952d-6c15f5029653",
-      "training": "https://docs.microsoft.com/learn/paths/architect-network-infrastructure/",
-      "link": "https://www.mindtools.com/pages/article/newTMC_08.htm"
+      "severity": "Medium",
+      "link": "https://www.gartner.com/reviews/market/cloud-infrastructure-and-platform-services/vendor/microsoft/product/azure"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "How do you license the solution today?",
+      "description": "An important considerting in the context of architecting a solution on Microsoft Azure because it helps determine the cost and potential licensing implications of using Microsoft Azure services and tools, and value per user of the solution.",
       "guid": "88e6ded2-27dd-4142-a06c-21c7999a646f",
-      "training": "https://docs.microsoft.com/learn/paths/secure-application-delivery/"
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "How is the solution sold?",
+      "description": "This question can help inform any necessary adjustments that need to be made to integrate with any sales and billing systems",
       "guid": "4389a7f4-2c78-4e78-a06a-73a21a4956e6",
-      "training": "https://docs.microsoft.com/learn/paths/secure-networking-infrastructure/"
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Going forward, will this become a cloud/SAAS only solution?",
+      "description": "This question helps informs any necessary design and architectural decisions to ensure the solution can effectively run and scale as a cloud/SaaS offering in Microsoft Azure.",
       "guid": "a8dc4a20-e27b-43e2-a711-b1352beee079",
-      "training": "https://docs.microsoft.com/learn/paths/secure-networking-infrastructure/"
+      "severity": "Low",
+      "training": "https://learn.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Is the solution delivered in different offerings or tiers?",
-      "guid": "b588defc-4972-4cd3-ad21-bf77036e5e6b",
-      "training": "https://docs.microsoft.com/learn/paths/secure-networking-infrastructure/"
+      "guid": "b588defc-4972-4cd3-ad21-bf77036e5e6b"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Are there t-shirt sized offerings for the solution?",
-      "guid": "4bed3d5f-3547-4c13-97dc-56028a71ffe1",
-      "training": "https://docs.microsoft.com/learn/paths/secure-networking-infrastructure/"
+      "guid": "4bed3d5f-3547-4c13-97dc-56028a71ffe1"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Are there different support/BCDR levels per solution tier?",
-      "guid": "cd15dd2f-0d5e-4772-b41e-3611cc57b4a4",
-      "training": "https://docs.microsoft.com/learn/modules/configure-azure-ad-application-proxy/"
+      "guid": "cd15dd2f-0d5e-4772-b41e-3611cc57b4a4"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "What is the typical sales cycle for the solution?",
-      "guid": "b1410d43-958a-48c2-889b-3d6b57cfc645",
-      "training": "https://docs.microsoft.com/learn/paths/implement-resource-mgmt-security/"
+      "guid": "b1410d43-958a-48c2-889b-3d6b57cfc645"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "What are the pain points in the sales cycle?",
-      "guid": "461e1a3e-3453-4a3c-a639-648b652d6c15",
-      "training": "https://docs.microsoft.com/learn/paths/implement-applications-external-access-azure-ad/"
+      "guid": "461e1a3e-3453-4a3c-a639-648b652d6c15"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "How will moving to the cloud affect the sales cycle?",
-      "guid": "f5029653-88e6-4ded-827d-d142b06c21c7",
-      "training": "https://docs.microsoft.com/learn/paths/implement-network-security/"
+      "guid": "f5029653-88e6-4ded-827d-d142b06c21c7"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Is this an internal line of busines solution or is it external facing?",
-      "guid": "999a646f-4389-4a7f-92c7-8e78c06a73a2",
-      "training": "https://docs.microsoft.com/learn/paths/implement-network-security/"
+      "guid": "999a646f-4389-4a7f-92c7-8e78c06a73a2"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Do your customers rely on the solution to provide services to their own end-customers?",
-      "guid": "1a4956e6-a8dc-44a2-8e27-b3e29711b135",
-      "training": "https://docs.microsoft.com/learn/paths/implement-network-security/"
+      "guid": "1a4956e6-a8dc-44a2-8e27-b3e29711b135"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "How is the solution sold?",
-      "guid": "2beee079-b588-4def-a497-2cd3cd21bf77",
-      "training": "https://docs.microsoft.com/learn/modules/design-implement-network-monitoring/"
+      "guid": "2beee079-b588-4def-a497-2cd3cd21bf77"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Is the solution self-service?",
-      "guid": "036e5e6b-4bed-43d5-b354-7c1347dc5602",
-      "training": "https://docs.microsoft.com/learn/paths/implement-network-security/"
+      "guid": "036e5e6b-4bed-43d5-b354-7c1347dc5602"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Is the solution managed or SAAS?",
-      "guid": "8a71ffe1-cd15-4dd2-b0d5-e772d41e3611",
-      "training": "https://docs.microsoft.com/learn/paths/secure-networking-infrastructure/"
+      "guid": "8a71ffe1-cd15-4dd2-b0d5-e772d41e3611"
     },
     {
       "category": "Business",
@@ -407,22 +473,19 @@
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution need to run in a customer subscription but still managed by a partner?",
-      "guid": "57cfc645-461e-41a3-b345-3a3c8639648b",
-      "training": "https://docs.microsoft.com/learn/paths/implement-network-security/"
+      "guid": "57cfc645-461e-41a3-b345-3a3c8639648b"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution require a billing solution?",
-      "guid": "652d6c15-f502-4965-988e-6ded227dd142",
-      "training": "https://docs.microsoft.com/learn/paths/implement-network-security/"
+      "guid": "652d6c15-f502-4965-988e-6ded227dd142"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution require a subscription or consumption billing model?",
-      "guid": "b06c21c7-999a-4646-b438-9a7f42c78e78",
-      "training": "https://docs.microsoft.com/learn/modules/design-implement-network-monitoring/"
+      "guid": "b06c21c7-999a-4646-b438-9a7f42c78e78"
     },
     {
       "category": "Business",
@@ -446,8 +509,7 @@
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Can the solution deployment and configuration be completely automated?",
-      "guid": "47dc5602-8a71-4ffe-8cd1-5dd2f0d5e772",
-      "training": "https://docs.microsoft.com/azure/azure-monitor/logs/design-logs-deployment"
+      "guid": "47dc5602-8a71-4ffe-8cd1-5dd2f0d5e772"
     },
     {
       "category": "Business",
@@ -459,22 +521,19 @@
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution authenticate users with SSO with OAuth2, OIDC or SAML?",
-      "guid": "289b3d6b-57cf-4c64-9461-e1a3e3453a3c",
-      "training": "https://docs.microsoft.com/learn/paths/architect-infrastructure-operations/"
+      "guid": "289b3d6b-57cf-4c64-9461-e1a3e3453a3c"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution authenticate users with Azure AD?",
-      "guid": "8639648b-652d-46c1-9f50-2965388e6ded",
-      "training": "https://docs.microsoft.com/learn/paths/architect-infrastructure-operations/"
+      "guid": "8639648b-652d-46c1-9f50-2965388e6ded"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Is the solution tailored for specific industries?",
-      "guid": "227dd142-b06c-421c-9999-a646f4389a7f",
-      "training": "https://docs.microsoft.com/learn/paths/implement-resource-mgmt-security/"
+      "guid": "227dd142-b06c-421c-9999-a646f4389a7f"
     },
     {
       "category": "Data",
@@ -618,22 +677,19 @@
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How does your application get promoted to Staging? Production?",
-      "guid": "c8813706-f7c0-4cb9-be51-4648dd457e92",
-      "training": "https://docs.microsoft.com/learn/paths/azure-administrator-manage-compute-resources/"
+      "guid": "c8813706-f7c0-4cb9-be51-4648dd457e92"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How often do you release?",
-      "guid": "7138b820-102c-4ac6-bae0-1e6e842e52f4",
-      "training": "https://docs.microsoft.com/learn/modules/configure-network-watcher/"
+      "guid": "7138b820-102c-4ac6-bae0-1e6e842e52f4"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What tools are used to manage software development?",
-      "guid": "721d928c-1b1b-4d52-8e54-a29a9dd399cf",
-      "training": "https://docs.microsoft.com/learn/paths/implement-resource-mgmt-security/"
+      "guid": "721d928c-1b1b-4d52-8e54-a29a9dd399cf"
     },
     {
       "category": "Governance",
@@ -681,22 +737,19 @@
       "category": "Governance",
       "subcategory": "Governance",
       "text": "Is there an approval system for change?",
-      "guid": "842e52f4-721d-4928-a1b1-bd521e54a29a",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#geo-filter-traffic"
+      "guid": "842e52f4-721d-4928-a1b1-bd521e54a29a"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "How do you document production changes?",
-      "guid": "9dd399cf-d7b2-48dc-a355-56202bfe4563",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#specify-the-unknown-zz-location"
+      "guid": "9dd399cf-d7b2-48dc-a355-56202bfe4563"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "What is your release cycle? (e.g. 1/mo, every merged PR)",
-      "guid": "b0d834a3-48b2-463e-9dd6-0512a26498f6",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#add-diagnostic-settings-to-save-your-wafs-logs"
+      "guid": "b0d834a3-48b2-463e-9dd6-0512a26498f6"
     },
     {
       "category": "Infrastructure",
@@ -750,29 +803,25 @@
       "category": "Infrastructure",
       "subcategory": "Compute",
       "text": "What are the application bottlenecks? (e.g. CPU, Memory, etc.)",
-      "guid": "7e3165c3-a87a-404b-9a20-9949bda47778",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/overview"
+      "guid": "7e3165c3-a87a-404b-9a20-9949bda47778"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Storage",
       "text": "How does the system persist data? (e.g. user data is stored in MySQL, media files stored in blob)",
-      "guid": "f24d1167-85c2-4fa5-9b56-a948008be7d7",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/overview-throttling"
+      "guid": "f24d1167-85c2-4fa5-9b56-a948008be7d7"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Storage",
       "text": "What format is the data in? (e.g. images, 1000's of media files)",
-      "guid": "e4c476b6-d8bd-4c05-abcf-65de8a13f988",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "e4c476b6-d8bd-4c05-abcf-65de8a13f988"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Storage",
       "text": "What are the data volume requirements (e.g. 1GB of MySQL data, 1TB of blob storage)",
-      "guid": "79469d66-a886-4d70-ba6c-97be9955d04c",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "79469d66-a886-4d70-ba6c-97be9955d04c"
     },
     {
       "category": "Infrastructure",
@@ -784,212 +833,182 @@
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "How are the IoT devices deployed?",
-      "guid": "3c49c986-cb2d-4131-9aa1-24b6e4df585e",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "3c49c986-cb2d-4131-9aa1-24b6e4df585e"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "How are the IoT devices maintained and upgraded?",
-      "guid": "cdce9793-b7bc-4db3-a51e-b2eb03eda6e5",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "cdce9793-b7bc-4db3-a51e-b2eb03eda6e5"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "What central repository are the IoT devices reporting to?",
-      "guid": "9d7d8a2e-db11-47d6-96aa-f669ca48e5a9",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "9d7d8a2e-db11-47d6-96aa-f669ca48e5a9"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "Do you use Digital Twins?",
-      "guid": "5f2223ec-e8cb-4123-88ca-5017f158e3eb",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/monitor-key-vault"
+      "guid": "5f2223ec-e8cb-4123-88ca-5017f158e3eb"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Third-party",
       "text": "What 3rd party systems does your system integreate with? (e.g. SMTP, MongoDB)",
-      "guid": "3a93c2de-7e31-465c-9a87-a04b7a209949",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "3a93c2de-7e31-465c-9a87-a04b7a209949"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Third-party",
       "text": "How do you plan to manage these 3rd party systems?",
-      "guid": "bda47778-f24d-4116-985c-2fa55b56a948",
-      "link": "https://docs.microsoft.com/azure/security/fundamentals/encryption-atrest"
+      "guid": "bda47778-f24d-4116-985c-2fa55b56a948"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Third-party",
       "text": "What Microsoft/Azure SaaS offerings do you plan to use? (e.g. Cognitive Services, etc.)",
-      "guid": "008be7d7-e4c4-476b-9d8b-dc059bcf65de",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "008be7d7-e4c4-476b-9d8b-dc059bcf65de"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "What OS can the system run on?",
-      "guid": "8a13f988-7946-49d6-9a88-6d70fa6c97be",
-      "link": "https://docs.microsoft.com/azure/key-vault/general/best-practices"
+      "guid": "8a13f988-7946-49d6-9a88-6d70fa6c97be"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "How do plan to manage updates when there's a critical security update?",
-      "guid": "9955d04c-3c49-4c98-9cb2-d1315aa124b6",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "9955d04c-3c49-4c98-9cb2-d1315aa124b6"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "What is your build system?",
-      "guid": "e4df585e-cdce-4979-9b7b-cdb3b51eb2eb",
-      "link": "https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging"
+      "guid": "e4df585e-cdce-4979-9b7b-cdb3b51eb2eb"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "How often do you build new executable artifacts?",
-      "guid": "03eda6e5-9d7d-48a2-bdb1-17d676aaf669",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "03eda6e5-9d7d-48a2-bdb1-17d676aaf669"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "How often do you deploy new executable artifacts?",
-      "guid": "ca48e5a9-5f22-423e-ae8c-b12308ca5017",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "ca48e5a9-5f22-423e-ae8c-b12308ca5017"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Roadmap",
       "text": "Is this a greenfield or brownfield app?",
-      "guid": "f158e3eb-3a93-4c2d-b7e3-165c3a87a04b",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "f158e3eb-3a93-4c2d-b7e3-165c3a87a04b"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Roadmap",
       "text": "What optimizations do you foresee?",
-      "guid": "7a209949-bda4-4777-af24-d116785c2fa5",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "7a209949-bda4-4777-af24-d116785c2fa5"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Roadmap",
       "text": "What are your highest technical priorities?",
-      "guid": "5b56a948-008b-4e7d-9e4c-476b6d8bdc05",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "5b56a948-008b-4e7d-9e4c-476b6d8bdc05"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "What OS does the service run on?",
-      "guid": "9bcf65de-8a13-4f98-a794-69d66a886d70",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "9bcf65de-8a13-4f98-a794-69d66a886d70"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "How do user's interact with the application? (e.g. Browser, RDC, Run on Desktop, etc.)",
-      "guid": "fa6c97be-9955-4d04-a3c4-9c986cb2d131",
-      "link": "https://docs.microsoft.com/azure/governance/policy/overview"
+      "guid": "fa6c97be-9955-4d04-a3c4-9c986cb2d131"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "How are you storing your code? (e.g. VSTS, TFS, GitLab, etc.)",
-      "guid": "5aa124b6-e4df-4585-bcdc-e9793b7bcdb3",
-      "link": "https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration"
+      "guid": "5aa124b6-e4df-4585-bcdc-e9793b7bcdb3"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "Do you have one repository per code base?",
       "description": "This question is to understand if the are able to build/deploiy their services separately.",
-      "guid": "b51eb2eb-03ed-4a6e-99d7-d8a2edb117d6",
-      "link": "https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-operational-compliance#monitoring-for-configuration-drift"
+      "guid": "b51eb2eb-03ed-4a6e-99d7-d8a2edb117d6"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "Do you deploy your UI separately from your API?",
-      "guid": "76aaf669-ca48-4e5a-a5f2-223ece8cb123",
-      "link": "https://docs.microsoft.com/azure/active-directory/reports-monitoring/overview-reports"
+      "guid": "76aaf669-ca48-4e5a-a5f2-223ece8cb123"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "What are your deployment artifacts? (e.g. Java WAR, .EXE, Container)",
-      "guid": "b4861bc3-bc14-4aea-9e65-e8d9a3aec218",
-      "link": "https://docs.microsoft.com/azure/azure-monitor/logs/logs-data-export?tabs=portal"
+      "guid": "b4861bc3-bc14-4aea-9e65-e8d9a3aec218"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "What languages are used? (e.g. C#, PHP, Python)vvvv",
-      "guid": "e6436b07-36db-455f-9796-03334bdf9cc2",
-      "link": "https://docs.microsoft.com/azure/security-center/"
+      "guid": "e6436b07-36db-455f-9796-03334bdf9cc2"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "How/Where does the application read it's config?",
-      "guid": "3418db61-2712-4650-9bb4-7a393a080327",
-      "link": "https://docs.microsoft.com/azure/security-center/"
+      "guid": "3418db61-2712-4650-9bb4-7a393a080327"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "How do you generate your config?",
-      "guid": "294798b1-578b-4219-a46c-eb5443512592",
-      "link": "https://docs.microsoft.com/azure/azure-monitor/logs/design-logs-deployment"
+      "guid": "294798b1-578b-4219-a46c-eb5443512592"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "How do you update config on your application?",
-      "guid": "2644293b-b628-4537-a551-19bf8e8f5854",
-      "link": "https://docs.microsoft.com/security/benchmark/azure/security-control-incident-response"
+      "guid": "2644293b-b628-4537-a551-19bf8e8f5854"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "Could you Open Source your application without exposing credentials?",
-      "guid": "287d9cec-166c-4d07-8af9-b141a898a535",
-      "link": "https://www.microsoft.com/security/business/zero-trust"
+      "guid": "287d9cec-166c-4d07-8af9-b141a898a535"
     },
     {
       "category": "Microservices",
       "subcategory": "Application",
       "text": "Do the processes store any state?",
-      "guid": "e737897e-71ca-47da-acea-962a1593946d",
-      "link": "https://docs.microsoft.com/security/benchmark/azure/security-control-incident-response"
+      "guid": "e737897e-71ca-47da-acea-962a1593946d"
     },
     {
       "category": "Microservices",
       "subcategory": "Application",
       "text": "Do they need to support 'sticky sessions'?",
-      "guid": "a97cc392-3266-4b22-986f-4a1651bdddea",
-      "link": "https://docs.microsoft.com/security/benchmark/azure/security-control-incident-response"
+      "guid": "a97cc392-3266-4b22-986f-4a1651bdddea"
     },
     {
       "category": "Microservices",
       "subcategory": "Application",
       "text": "Do they share memory with other processes?",
-      "guid": "8a487cde-b486-41bc-9bc1-4aea7e65e8d9",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#avoid-combining-traffic-manager-and-front-door"
+      "guid": "8a487cde-b486-41bc-9bc1-4aea7e65e8d9"
     },
     {
       "category": "Microservices",
       "subcategory": "Exposure",
       "text": "What ports are exposed enternally? (Are these exposed to the public internet?)",
-      "guid": "a3aec218-e643-46b0-936d-b55f57960333",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#use-end-to-end-tls"
+      "guid": "a3aec218-e643-46b0-936d-b55f57960333"
     },
     {
       "category": "Microservices",
@@ -1001,113 +1020,97 @@
       "category": "Microservices",
       "subcategory": "Exposure",
       "text": "What ports are exposed internally?",
-      "guid": "3a080327-2947-498b-8578-b219a46ceb54",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#use-http-to-https-redirection"
+      "guid": "3a080327-2947-498b-8578-b219a46ceb54"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "How do you scale processes?",
-      "guid": "43512592-2644-4293-ab62-8537a55119bf",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#use-managed-tls-certificates"
+      "guid": "43512592-2644-4293-ab62-8537a55119bf"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Can you scale those processes independently?",
-      "guid": "8e8f5854-287d-49ce-a166-cd072af9b141",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#use-latest-version-for-customer-managed-certificates"
+      "guid": "8e8f5854-287d-49ce-a166-cd072af9b141"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "What's the impact if the process dies unexpectedly?",
-      "guid": "a898a535-e737-4897-b71c-a7da8cea962a",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#use-the-same-domain-name-on-front-door-and-your-origin"
+      "guid": "a898a535-e737-4897-b71c-a7da8cea962a"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "What is the process start time?",
-      "guid": "1593946d-a97c-4c39-8326-6b22586f4a16",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#enable-the-waf"
+      "guid": "1593946d-a97c-4c39-8326-6b22586f4a16"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "Are there background jobs?",
-      "guid": "51bdddea-8a48-47cd-bb48-61bc3bc14aea",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#disable-health-probes-when-theres-only-one-origin-in-an-origin-group"
+      "guid": "51bdddea-8a48-47cd-bb48-61bc3bc14aea"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "Are the jobs re-enterant? (can be interrupted during exe and restarted safely)",
-      "guid": "7e65e8d9-a3ae-4c21-ae64-36b0736db55f",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#select-good-health-probe-endpoints"
+      "guid": "7e65e8d9-a3ae-4c21-ae64-36b0736db55f"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "Are the jobs idempotent?",
-      "guid": "57960333-4bdf-49cc-8341-8db612712650",
-      "link": "https://learn.microsoft.com/azure/frontdoor/best-practices#use-head-health-probes"
+      "guid": "57960333-4bdf-49cc-8341-8db612712650"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "How do you pinpoint the source of the outage?",
-      "guid": "4bb47a39-3a08-4032-9294-798b1578b219",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#tune-your-waf"
+      "guid": "4bb47a39-3a08-4032-9294-798b1578b219"
     },
     {
       "category": "Microservices",
       "subcategory": "Networking",
       "text": "What is the expected traffic volume/pattern? (e.g. 1000 rps from 5-9, 50 rps otherwise; bursty during European daylight)",
-      "guid": "a46ceb54-4351-4259-8264-4293bb628537",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#use-prevention-mode"
+      "guid": "a46ceb54-4351-4259-8264-4293bb628537"
     },
     {
       "category": "Microservices",
       "subcategory": "Governance",
       "text": "What are your pod security policy requirements?",
-      "guid": "a55119bf-8e8f-4585-9287-d9cec166cd07",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#define-your-waf-configuration-as-code"
+      "guid": "a55119bf-8e8f-4585-9287-d9cec166cd07"
     },
     {
       "category": "Microservices",
       "subcategory": "Governance",
       "text": "What are your access control policy requirements?",
-      "guid": "2af9b141-a898-4a53-9e73-7897e71ca7da",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#enable-default-rule-sets"
+      "guid": "2af9b141-a898-4a53-9e73-7897e71ca7da"
     },
     {
       "category": "Microservices",
       "subcategory": "Governance",
       "text": "What are the High Availability/Business Continuity/Disaster Recovery requirements?",
-      "guid": "8cea962a-1593-4946-ba97-cc3923266b22",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#enable-bot-management-rules"
+      "guid": "8cea962a-1593-4946-ba97-cc3923266b22"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Is the service capable of load balancing across instances?",
-      "guid": "253c17d3-1d8a-4aab-9571-549ab8153d89",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#use-the-latest-ruleset-versions"
+      "guid": "253c17d3-1d8a-4aab-9571-549ab8153d89"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Is the service capable of load balancing across regions?",
-      "guid": "f89d17b7-3b32-4b5a-97f7-b9ed5b31f38c",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#add-rate-limiting"
+      "guid": "f89d17b7-3b32-4b5a-97f7-b9ed5b31f38c"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Do you gracefully drain off traffic when upgrading?",
-      "guid": "403a822c-2463-4cf0-b18a-c699ef1d5a83",
-      "link": "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-best-practices#use-a-high-threshold-for-rate-limits"
+      "guid": "403a822c-2463-4cf0-b18a-c699ef1d5a83"
     },
     {
       "category": "Observability",
@@ -1187,9 +1190,7 @@
       "text": "What is the solution's SLA?",
       "description": "X is about x",
       "guid": "2b4f4564-b4d9-474a-948b-663e7d260513",
-      "severity": "Medium",
-      "training": "https://aka.ms/AwesomeAzureArchitecture",
-      "link": "https://luke.geek.nz/"
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
