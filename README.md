@@ -25,6 +25,8 @@ Leaning on the great frameworks already in place to assist with the [Cloud Adopt
 
 This repo separates the actual checklist contentfrom the offical/community driven checklists offered as part of the [Azure Review Checklist](https://github.com/Azure/review-checklists). This checklist is aimed as a method of capturing business requirements before the review stage.
 
+The excel checklist, is purely for demonostration purposes. It may be out-of-date with the latest excel spreadsheet from the Azure Review, and running an out of date question of the Azure Architecture checklist.
+
 ## Reporting errors and contributing
 
 Please feel free to open an issue or create a PR if you find any error or missing information in the checklist. This is aimed to be community driven.
