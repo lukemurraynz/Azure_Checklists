@@ -1,13 +1,15 @@
 
 # Azure Architecture - Solution requirement considerations
 
+Blog post can be found here: [Azure Architecture - Solution Requirement Consideration Checklist](https://luke.geek.nz/azure/azure-architecture-solution-requirement-consideration-checklist/)
+
 Quick links for using the checklists in this repo:
 
 - [Latest release of the Excel spreadsheet](https://github.com/Azure/review-checklists/releases/latest/download/review_checklist.xlsm)
 
 Summary of checklists supported and the respective responsible owners:
 
-- azure_architecture_checklist.en
+- [azure_architecture_checklist.en](https://github.com/lukemurraynz/Azure_Checklists/blob/main/azure_architecture_checklist.en.json)
 
 ## What is an Azure Architecture - Solution requirement considerations?
 
