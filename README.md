@@ -7,7 +7,7 @@ Quick links for using the checklists in this repo:
 
 Summary of checklists supported and the respective responsible owners:
 
-- azure_architecture_checklist.en
+- [azure_architecture_checklist.en](https://github.com/lukemurraynz/Azure_Checklists/blob/main/azure_architecture_checklist.en.json)
 
 ## What is an Azure Architecture - Solution requirement considerations?
 
