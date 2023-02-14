@@ -401,590 +401,759 @@
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Is the solution delivered in different offerings or tiers?",
-      "guid": "b588defc-4972-4cd3-ad21-bf77036e5e6b"
+      "description": "Asking whether a solution is delivered in different offerings or tiers helps determine the level of scalability and customization available.",
+      "guid": "b588defc-4972-4cd3-ad21-bf77036e5e6b",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Are there t-shirt sized offerings for the solution?",
-      "guid": "4bed3d5f-3547-4c13-97dc-56028a71ffe1"
+      "description": "Asking about t-shirt sized offerings refers to the standard sizing convention for cloud computing, where offerings are classified as Small, Medium, Large, and Extra-Large, to help determine the level of resources and cost required for a solution in a Microsoft Azure cloud environment.",
+      "guid": "4bed3d5f-3547-4c13-97dc-56028a71ffe1",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Are there different support/BCDR levels per solution tier?",
-      "guid": "cd15dd2f-0d5e-4772-b41e-3611cc57b4a4"
+      "description": "Asking about different support and Business Continuity and Disaster Recovery (BCDR) levels per solution tier helps determine the level of reliability and availability for a solution, as well as the level of technical support provided.",
+      "guid": "cd15dd2f-0d5e-4772-b41e-3611cc57b4a4",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "What is the typical sales cycle for the solution?",
-      "guid": "b1410d43-958a-48c2-889b-3d6b57cfc645"
+      "description": "Understanding the sales cycle can also provide insights into the level of complexity involved in obtaining the solution and help plan for any necessary resources, such as budget and personnel. This information can also help set expectations with stakeholders and ensure a smooth and efficient procurement process.",
+      "guid": "b1410d43-958a-48c2-889b-3d6b57cfc645",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "What are the pain points in the sales cycle?",
-      "guid": "461e1a3e-3453-4a3c-a639-648b652d6c15"
+      "description": "Understanding these pain points can help address and mitigate any potential roadblocks and ensure a smoother procurement process. This information can also be used to improve the overall sales process and make it more user-friendly for future customers.",
+      "guid": "461e1a3e-3453-4a3c-a639-648b652d6c15",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "How will moving to the cloud affect the sales cycle?",
-      "guid": "f5029653-88e6-4ded-827d-d142b06c21c7"
+      "description": "Moving to the cloud may bring new considerations and requirements, such as network security and data privacy, that could affect the sales cycle. ",
+      "guid": "f5029653-88e6-4ded-827d-d142b06c21c7",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Is this an internal line of busines solution or is it external facing?",
-      "guid": "999a646f-4389-4a7f-92c7-8e78c06a73a2"
+      "description": "Internal solutions may have different security and privacy requirements compared to external solutions, which are accessible to a broader audience. Understanding the target audience can help determine the necessary level of security, privacy, and compliance for the solution, as well as any potential regulatory requirements that need to be considered.",
+      "guid": "999a646f-4389-4a7f-92c7-8e78c06a73a2",
+      "severity": "High"
     },
     {
       "category": "Business",
       "subcategory": "Licensing",
       "text": "Do your customers rely on the solution to provide services to their own end-customers?",
-      "guid": "1a4956e6-a8dc-44a2-8e27-b3e29711b135"
+      "description": "Solutions that are relied upon by customers to provide services to their own end-customers typically have higher requirements for availability, reliability, and performance. Understanding the criticality of a solution can help determine the necessary level of resiliency and disaster recovery.",
+      "guid": "1a4956e6-a8dc-44a2-8e27-b3e29711b135",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "How is the solution sold?",
-      "guid": "2beee079-b588-4def-a497-2cd3cd21bf77"
+      "description": "Understanding the sales method can help determine the level of customization, resources, and support available, as well as any necessary certifications or requirements for sales and support personnel.",
+      "guid": "2beee079-b588-4def-a497-2cd3cd21bf77",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Is the solution self-service?",
+      "description": "Understanding the level of self-service can help determine the necessary level of customer training and support, as well as any potential impact on the overall customer experience. Including options around Identity.",
       "guid": "036e5e6b-4bed-43d5-b354-7c1347dc5602"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Is the solution managed or SAAS?",
-      "guid": "8a71ffe1-cd15-4dd2-b0d5-e772d41e3611"
+      "description": "Managed solutions require the customer to take on the responsibility for managing and maintaining the solution, while SaaS solutions are fully managed by the vendor or provider. ",
+      "guid": "8a71ffe1-cd15-4dd2-b0d5-e772d41e3611",
+      "severity": "Low"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Will the solution run in a subscription owned by the partner or by the customer?",
-      "guid": "cc57b4a4-b141-40d4-9958-a8c2289b3d6b"
+      "description": "Solutions running in a subscription owned by a partner may have different levels of access and control compared to solutions running in a subscription owned by the customer. Understanding the ownership of the subscription can help determine the necessary level of security and compliance, as well as any potential regulatory requirements that need to be considered. ",
+      "guid": "cc57b4a4-b141-40d4-9958-a8c2289b3d6b",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution need to run in a customer subscription but still managed by a partner?",
-      "guid": "57cfc645-461e-41a3-b345-3a3c8639648b"
+      "description": "Solutions that run in a customer subscription but are still managed by a partner require a clear division of responsibilities and access controls, as both the customer and the partner have varying levels of control and visibility into the solution.",
+      "guid": "57cfc645-461e-41a3-b345-3a3c8639648b",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution require a billing solution?",
-      "guid": "652d6c15-f502-4965-988e-6ded227dd142"
+      "description": "Understanding the billing requirements can help determine the necessary level of integration with existing billing and accounting systems, as well as any potential regulatory requirements that need to be considered. This information can also help plan for any necessary resources and personnel needed to implement and manage a billing solution for the solution.",
+      "guid": "652d6c15-f502-4965-988e-6ded227dd142",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution require a subscription or consumption billing model?",
-      "guid": "b06c21c7-999a-4646-b438-9a7f42c78e78"
+      "description": "Solutions may use a subscription billing model, where customers pay a fixed fee for a set period of time, or a consumption billing model, where customers pay for the actual usage of the solution. This can effect the solution design.",
+      "guid": "b06c21c7-999a-4646-b438-9a7f42c78e78",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Can the solution deployment and configuration be completely automated?",
-      "guid": "c06a73a2-1a49-456e-9a8d-c4a20e27b3e2"
-    },
-    {
-      "category": "Business",
-      "subcategory": "Marketplace",
-      "text": "Does the solution require a billing solution?",
-      "guid": "9711b135-2bee-4e07-ab58-8defc4972cd3"
-    },
-    {
-      "category": "Business",
-      "subcategory": "Marketplace",
-      "text": "Does the solution require a subscription or consumption billing model?",
-      "guid": "cd21bf77-036e-45e6-a4be-d3d5f3547c13"
-    },
-    {
-      "category": "Business",
-      "subcategory": "Marketplace",
-      "text": "Can the solution deployment and configuration be completely automated?",
-      "guid": "47dc5602-8a71-4ffe-8cd1-5dd2f0d5e772"
+      "description": "Solutions that can be deployed and configured using automation can typically be done more quickly, with fewer manual steps and a lower risk of errors. Automating the deployment and configuration can also help ensure consistency and repeatability across multiple deployments.",
+      "guid": "c06a73a2-1a49-456e-9a8d-c4a20e27b3e2",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution integrate with Microsoft platforms (Dynamics, Power BI, Office 365, etc)?",
-      "guid": "d41e3611-cc57-4b4a-9b14-10d43958a8c2"
+      "description": "Integration with Microsoft platforms can provide additional value and functionality, as well as a more seamless user experience for customers.",
+      "guid": "d41e3611-cc57-4b4a-9b14-10d43958a8c2",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution authenticate users with SSO with OAuth2, OIDC or SAML?",
-      "guid": "289b3d6b-57cf-4c64-9461-e1a3e3453a3c"
+      "description": "Authentication methods such as Single Sign-On (SSO) with OAuth2, OpenID Connect (OIDC), or Security Assertion Markup Language (SAML) provide a more secure and convenient way for users to access the solution. Understanding the authentication method can help determine the necessary level of integration with existing identity management systems and tools, as well as any potential impact on the overall user experience.",
+      "guid": "289b3d6b-57cf-4c64-9461-e1a3e3453a3c",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Does the solution authenticate users with Azure AD?",
-      "guid": "8639648b-652d-46c1-9f50-2965388e6ded"
+      "description": "Asking if the solution authenticates users with Azure AD is important in order to ensure secure access to the solution and integration with the centralized identity management provided by Azure Active Directory.",
+      "guid": "8639648b-652d-46c1-9f50-2965388e6ded",
+      "severity": "Medium"
     },
     {
       "category": "Business",
       "subcategory": "Marketplace",
       "text": "Is the solution tailored for specific industries?",
-      "guid": "227dd142-b06c-421c-9999-a646f4389a7f"
+      "description": "Asking if the solution is tailored for specific industries is important to determine if it meets the specific regulatory, compliance, and business requirements of those industries, ensuring that it can effectively meet the needs of its target market.",
+      "guid": "227dd142-b06c-421c-9999-a646f4389a7f",
+      "severity": "Low"
     },
     {
       "category": "Data",
       "subcategory": "Backup",
       "text": "Do you have retention policy?",
-      "guid": "42c78e78-c06a-473a-81a4-956e6a8dc4a2"
+      "description": "Asking about the retention policy is important to understand the duration for which data will be stored, and the procedures for deleting or archiving it. This helps ensure that sensitive information is managed and disposed of properly, and helps to meet regulatory and legal requirements for data storage.",
+      "guid": "42c78e78-c06a-473a-81a4-956e6a8dc4a2",
+      "severity": "High"
     },
     {
       "category": "Data",
       "subcategory": "Backup",
       "text": "How is data backed up?",
-      "guid": "bad37ead-53cc-47ce-8d7a-aab3571449ab"
+      "description": "Asking about the data backup process is important to ensure that the data is protected and can be recovered in the event of a disaster, system failure, or other data loss event. Having a reliable data backup process helps to minimize downtime and ensure the continuity of business operations.",
+      "guid": "bad37ead-53cc-47ce-8d7a-aab3571449ab",
+      "severity": "High"
     },
     {
       "category": "Data",
       "subcategory": "Data",
       "text": "Are their policies impacting how the data is shared?",
-      "guid": "8053d89e-89dc-47b3-9be2-a1a27f7a9e91"
+      "description": "Data sharing is important to understand the restrictions and permissions for accessing and sharing data, and to ensure that sensitive information is properly protected. This helps to meet regulatory and legal requirements for data privacy and security, and to ensure that data is shared appropriately among authorized parties.",
+      "guid": "8053d89e-89dc-47b3-9be2-a1a27f7a9e91",
+      "severity": "Medium"
     },
     {
       "category": "Data",
       "subcategory": "Data",
       "text": "How much data does the solution generate? ",
-      "guid": "be1f38ce-f398-412b-b463-cbbac8ac199e"
+      "description": "The amount of data generated by the solution is important to understand the storage and processing requirements of the solution, and to ensure that the infrastructure can handle the volume of data generated. This helps to avoid performance and scalability issues, and to ensure that the solution can continue to operate efficiently over time. ",
+      "guid": "be1f38ce-f398-412b-b463-cbbac8ac199e",
+      "severity": "Medium"
     },
     {
       "category": "Data",
       "subcategory": "Data",
       "text": "Is your data segregated by customer? ",
-      "guid": "bb91a33d-90ca-4e2c-a881-3706f7c0cb9f"
+      "description": "Data segregation helps to prevent unauthorized access to sensitive information and to ensure that each customer's data is handled and managed appropriately. This is particularly important in industries where customer data must be protected by strict privacy regulations, such as healthcare or finance.",
+      "guid": "bb91a33d-90ca-4e2c-a881-3706f7c0cb9f",
+      "severity": "High"
     },
     {
       "category": "Data",
       "subcategory": "Data",
       "text": "How do they access the data?",
-      "guid": "e514648d-d457-4e92-9138-b820102cac6e"
+      "description": "How data is accessed is important to understand the process for retrieving data, and to ensure that the solution provides a secure and user-friendly experience for accessing data. This includes considerations such as the method of access (e.g. web portal, API), the level of security and authentication required, and the types of data that can be accessed.",
+      "guid": "e514648d-d457-4e92-9138-b820102cac6e",
+      "severity": "Medium"
     },
     {
       "category": "Data",
       "subcategory": "AI",
       "text": "What skill sets do you have on staff? (Data scientists, Developers)",
-      "guid": "ae01e6e8-42e5-42f4-921d-928c1b1bd521"
+      "description": "The skill sets of staff is important to understand the resources and capabilities available for designing, developing, and maintaining the solution. This helps to ensure that the solution can be effectively implemented and managed, and that any necessary updates or changes can be made in a timely and effective manner",
+      "guid": "ae01e6e8-42e5-42f4-921d-928c1b1bd521",
+      "severity": "High"
     },
     {
       "category": "Data",
       "subcategory": "AI",
       "text": "What data sets do you have to leverage? (public/proprietary)",
-      "guid": "e54a29a9-dd39-49cf-b7b2-8dc935556202"
+      "description": "This helps to identify any potential data quality or availability issues, and to ensure that the solution can be effectively designed and developed using the available data. Understanding the data sets also helps to ensure that the solution is based on the most relevant and accurate information, and that any necessary data acquisition or preparation can be performed. ",
+      "guid": "e54a29a9-dd39-49cf-b7b2-8dc935556202",
+      "severity": "Medium"
     },
     {
       "category": "Data",
       "subcategory": "AI",
       "text": "What feature/functionality are you supporting with the AI?",
-      "guid": "bfe4563b-0d83-44a3-98b2-63e6dd60512a"
+      "description": "Understanding the features and functionality supported by the AI helps to identify any potential limitations or challenges that may need to be addressed, and to ensure that the solution is delivering value to the business.",
+      "guid": "bfe4563b-0d83-44a3-98b2-63e6dd60512a",
+      "severity": "Low"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "What is currently in place for governance? ",
-      "guid": "26498f6d-bad3-47ea-b53c-c7ce1d7aaab3"
+      "description": "Understanding the current governance helps to identify any potential gaps or conflicts that may need to be addressed, and to ensure that the solution is being implemented in a secure and compliant manner.",
+      "guid": "26498f6d-bad3-47ea-b53c-c7ce1d7aaab3",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "Who controls environment access?",
-      "guid": "571449ab-8053-4d89-b89d-c7b33be2a1a2"
+      "description": "It is important to understand the processes and controls for managing access to the solution, and to ensure that the solution is secure and protected from unauthorized access. ",
+      "guid": "571449ab-8053-4d89-b89d-c7b33be2a1a2",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "is there specific periods (such as after business hours, during the weekend) where this solution could be turned off or scaled-down?",
-      "guid": "18ca5017-0154-4e3b-a36a-3829e7f31618"
+      "description": "Understanding the periods when the solution could be turned off or scaled-down helps to manage the costs of running the solution, as well as to minimize the impact on other systems and processes.",
+      "guid": "18ca5017-0154-4e3b-a36a-3829e7f31618",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "Are there any critical times of the month that are more important than others (such as the end of month processes)?",
-      "guid": "3687a057-7a20-4994-9bda-43334f249116"
+      "description": "Understanding the critical times of the month helps to manage the resources and capacity of the solution, as well as to minimize the impact on other systems and processes. This can also help in planning for any necessary upgrades or maintenance during non-critical times to ensure that the solution is always available when needed.",
+      "guid": "3687a057-7a20-4994-9bda-43334f249116",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "Policy",
       "text": "Who dictates the enforcement policy and how is it enacted?",
-      "guid": "7f7a9e91-be1f-438c-bf39-812bd463cbba"
+      "description": "Asking who dictates the enforcement policy and how it is enacted is important to understand the processes and controls for enforcing the policies, and to ensure that the solution is being implemented in a manner that meets the needs of the business.",
+      "guid": "7f7a9e91-be1f-438c-bf39-812bd463cbba",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "Policy",
       "text": "Who dictates the audit policy and how is it enacted?",
-      "guid": "c8ac199e-bb91-4a33-b90c-ae2cc8813706"
+      "description": "Asking who dictates the audit policy and how it is enacted is important to understand the processes and controls for auditing the solution.",
+      "guid": "c8ac199e-bb91-4a33-b90c-ae2cc8813706",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What environments do you have? (e.g. Dev/Test/Prod)",
-      "guid": "f7c0cb9f-e514-4648-bd45-7e927138b820"
+      "description": "Asking about the environments (e.g. Dev/Test/Prod) is important to understand the deployment pipeline",
+      "guid": "f7c0cb9f-e514-4648-bd45-7e927138b820",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How are you creating new software artifacts?",
-      "guid": "102cac6e-ae01-4e6e-a42e-52f4721d928c"
+      "description": "How software artifacts are created is important to understand the development process, and to ensure that the solution is being implemented in a manner that meets the needs of the business.",
+      "guid": "102cac6e-ae01-4e6e-a42e-52f4721d928c",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How do you deploy the new software artifacts across your environments?",
-      "guid": "1b1bd521-e54a-429a-add3-99cfd7b28dc9"
+      "description": "How software artifacts are deployed is important to understand the development process, and to ensure that the solution is being implemented in a manner that meets the needs of the business.",
+      "guid": "1b1bd521-e54a-429a-add3-99cfd7b28dc9",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "Compliance",
       "text": "Are you bound, by any key industry or security frameworks (ie SOC, HIPAA, ISO, PCI, NZISM)",
+      "description": "Industry or security frameworks (e.g. SOC, HIPAA, ISO, PCI, NZISM) is important to understand the compliance requirements",
       "guid": "35556202-bfe4-4563-a0d8-34a348b263e6"
     },
     {
       "category": "Governance",
       "subcategory": "Compliance",
       "text": "Are you subject to security audits?",
-      "guid": "dd60512a-2649-48f6-bbad-37ead53cc7ce"
+      "description": "Asking if the solution is subject to security audits is important to understand the processes and controls for auditing the solution.",
+      "guid": "dd60512a-2649-48f6-bbad-37ead53cc7ce",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "Compliance",
       "text": "Do you have any compliance requirements?",
-      "guid": "1d7aaab3-5714-449a-a805-3d89e89dc7b3"
+      "description": "Asking about compliance requirements is important to understand the compliance requirements.",
+      "guid": "1d7aaab3-5714-449a-a805-3d89e89dc7b3",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "Compliance",
       "text": "How do you currently track compliance? ",
-      "guid": "3be2a1a2-7f7a-49e9-8be1-f38cef39812b"
+      "description": "Asking how compliance is tracked is important to understand the processes and controls for tracking compliance.",
+      "guid": "3be2a1a2-7f7a-49e9-8be1-f38cef39812b",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "Compliance",
       "text": "Who is responsible for system compliance?",
-      "guid": "d463cbba-c8ac-4199-bbb9-1a33d90cae2c"
+      "description": "Who is responsible for system compliance is important to understand the responsibilities and processes for ensuring compliance.",
+      "guid": "d463cbba-c8ac-4199-bbb9-1a33d90cae2c",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How does your application get promoted to Staging? Production?",
-      "guid": "c8813706-f7c0-4cb9-be51-4648dd457e92"
+      "description": "The process for promoting the application to Staging and Production is important to understand the deployment pipeline.",
+      "guid": "c8813706-f7c0-4cb9-be51-4648dd457e92",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How often do you release?",
-      "guid": "7138b820-102c-4ac6-bae0-1e6e842e52f4"
+      "description": "Asking about the release cycle is important to understand the deployment pipeline and release management.",
+      "guid": "7138b820-102c-4ac6-bae0-1e6e842e52f4",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What tools are used to manage software development?",
-      "guid": "721d928c-1b1b-4d52-8e54-a29a9dd399cf"
+      "description": "To understand the tools used to manage software development and ensure compatibility with Azure.",
+      "guid": "721d928c-1b1b-4d52-8e54-a29a9dd399cf",
+      "severity": "High"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What development methodology is in use?",
-      "guid": "d7b28dc9-3555-4620-8bfe-4563b0d834a3"
+      "description": "To understand the development methodology and ensure it aligns with Azure capabilities.",
+      "guid": "d7b28dc9-3555-4620-8bfe-4563b0d834a3",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "Do you use CI/CD?",
-      "guid": "48b263e6-dd60-4512-a264-98f6dbad37ea"
+      "description": "To understand if a continuous integration and delivery process is in place and if it can be utilized in Azure.",
+      "guid": "48b263e6-dd60-4512-a264-98f6dbad37ea",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What are you using for source control?",
-      "guid": "d53cc7ce-1d7a-4aab-9571-449ab8053d89"
+      "description": "To understand the source control system in place and if it can be integrated with Azure.",
+      "guid": "d53cc7ce-1d7a-4aab-9571-449ab8053d89",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What level of automation currently exists in your development process?",
-      "guid": "e89dc7b3-3be2-4a1a-87f7-a9e91be1f38c"
+      "description": "To understand the current automation level and identify areas for improvement in Azure.",
+      "guid": "e89dc7b3-3be2-4a1a-87f7-a9e91be1f38c",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How do AppDev and Test teams verify features?",
-      "guid": "ef39812b-d463-4cbb-ac8a-c199ebb91a33"
+      "description": "To understand the verification process and ensure it can be integrated with Azure.",
+      "guid": "ef39812b-d463-4cbb-ac8a-c199ebb91a33",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "What non-production environments do you have? Are they customer-specific?",
-      "guid": "d90cae2c-c881-4370-9f7c-0cb9fe514648"
+      "description": "To understand the non-production environments.",
+      "guid": "d90cae2c-c881-4370-9f7c-0cb9fe514648",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "DevOps",
       "text": "How to you track configuration for the environments?",
-      "guid": "dd457e92-7138-4b82-8102-cac6eae01e6e"
+      "description": "To understand the configuration tracking process.",
+      "guid": "dd457e92-7138-4b82-8102-cac6eae01e6e",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "Is there an approval system for change?",
-      "guid": "842e52f4-721d-4928-a1b1-bd521e54a29a"
+      "description": "To understand the change approval process and ensure it aligns with Azure capabilities.",
+      "guid": "842e52f4-721d-4928-a1b1-bd521e54a29a",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "How do you document production changes?",
-      "guid": "9dd399cf-d7b2-48dc-a355-56202bfe4563"
+      "description": "To understand the documentation process for production changes.",
+      "guid": "9dd399cf-d7b2-48dc-a355-56202bfe4563",
+      "severity": "Medium"
     },
     {
       "category": "Governance",
       "subcategory": "Governance",
       "text": "What is your release cycle? (e.g. 1/mo, every merged PR)",
-      "guid": "b0d834a3-48b2-463e-9dd6-0512a26498f6"
+      "description": "To understand the release cycle .",
+      "guid": "b0d834a3-48b2-463e-9dd6-0512a26498f6",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "What external services does the system connect to? (e.g. On-Prem DB, other cloud, etc.)",
-      "guid": "dbad37ea-d53c-4c7c-b1d7-aaab3571449a"
+      "description": "To determine the required network connectivity between different services, and if the data transmission is secure.",
+      "guid": "dbad37ea-d53c-4c7c-b1d7-aaab3571449a",
+      "severity": "High"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "How do users interact and connect with the system? (e.g. User will VPN in and access web console)",
-      "guid": "b8053d89-e89d-4c7b-93be-2a1a27f7a9e9"
+      "description": "To determine the user authentication and authorization method and the network accessibility.",
+      "guid": "b8053d89-e89d-4c7b-93be-2a1a27f7a9e9",
+      "severity": "High"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "Is access to the system public or locked down? (If locked down, how so? (e.g. VPN + AAD))",
-      "guid": "1be1f38c-ef39-4812-ad46-3cbbac8ac199"
+      "description": "To understand the security requirements and the level of access control.",
+      "guid": "1be1f38c-ef39-4812-ad46-3cbbac8ac199",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "Is there any specific routing required? (e.g. All ingress/egress traffic must go through X)",
-      "guid": "ebb91a33-d90c-4ae2-ac88-13706f7c0cb9"
+      "description": "To understand the routing requirements and the flow of the network traffic.",
+      "guid": "ebb91a33-d90c-4ae2-ac88-13706f7c0cb9",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "What Access Control Lists (ACL's) are required? (e.g. whitelist by IP, Blacklist by IP)",
-      "guid": "fe514648-dd45-47e9-8713-8b820102cac6"
+      "description": "To determine the network security rules and the level of control for network traffic.",
+      "guid": "fe514648-dd45-47e9-8713-8b820102cac6",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "What is the expected traffic volume? traffic pattern?",
-      "guid": "b7bcdb3b-51eb-42eb-83ed-a6e59d7d8a2e"
+      "description": "To understand the network load and determine the required network capacity and availability.",
+      "guid": "b7bcdb3b-51eb-42eb-83ed-a6e59d7d8a2e",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Networking",
       "text": "What are the on-prem requirements? (e.g. 1G u/d connection on-prem DC)",
-      "guid": "db117d67-6aaf-4669-aa48-e5a95f2223ec"
+      "description": " To understand the network connectivity between on-premises and Azure, and to determine the required network bandwidth and quality.",
+      "guid": "db117d67-6aaf-4669-aa48-e5a95f2223ec",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Compute",
       "text": "Will the system run in containers and/or Kubernetes?",
-      "guid": "e8cb1230-8ca5-4017-b158-e3eb3a93c2de"
+      "description": "This question is important to ask when designing a solution on Azure as it will determine the most efficient and scalable deployment option for the application.",
+      "guid": "e8cb1230-8ca5-4017-b158-e3eb3a93c2de",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Compute",
       "text": "What are the application bottlenecks? (e.g. CPU, Memory, etc.)",
-      "guid": "7e3165c3-a87a-404b-9a20-9949bda47778"
+      "description": "Identifying the application bottlenecks is critical to ensure that the solution is able to handle the expected workload and deliver the desired performance. By understanding the resource constraints, you can make informed decisions on the scaling and configuration of your Azure resources.",
+      "guid": "7e3165c3-a87a-404b-9a20-9949bda47778",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Storage",
       "text": "How does the system persist data? (e.g. user data is stored in MySQL, media files stored in blob)",
-      "guid": "f24d1167-85c2-4fa5-9b56-a948008be7d7"
+      "description": "This question is important to ask when designing a solution on Azure as it will determine the most appropriate storage options to ensure the data is secure, highly available, and easily retrievable.",
+      "guid": "f24d1167-85c2-4fa5-9b56-a948008be7d7",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Storage",
       "text": "What format is the data in? (e.g. images, 1000's of media files)",
-      "guid": "e4c476b6-d8bd-4c05-abcf-65de8a13f988"
+      "description": "Knowing the format of the data will help determine the most appropriate storage options and the methods for efficiently retrieving and processing the data.",
+      "guid": "e4c476b6-d8bd-4c05-abcf-65de8a13f988",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Storage",
       "text": "What are the data volume requirements (e.g. 1GB of MySQL data, 1TB of blob storage)",
-      "guid": "79469d66-a886-4d70-ba6c-97be9955d04c"
+      "description": "Understanding the data volume requirements is crucial for determining the storage capacity needed to accommodate the data and to ensure that the solution can scale as needed to meet future data growth. ",
+      "guid": "79469d66-a886-4d70-ba6c-97be9955d04c",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "Does this solution require any special hardware (i.e., barcode scanners, licensing USB dongles, mobile phones, sensors)?",
-      "guid": "785d6fe9-6c96-4ad8-a44c-f3b2b38c886b"
+      "description": "Asking this question is important to ensure that the solution design takes into account any specific hardware requirements.",
+      "guid": "785d6fe9-6c96-4ad8-a44c-f3b2b38c886b",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "How are the IoT devices deployed?",
-      "guid": "3c49c986-cb2d-4131-9aa1-24b6e4df585e"
+      "description": "Knowing the deployment method of IoT devices is crucial for ensuring that the devices can communicate with the solution and be securely managed.vvv",
+      "guid": "3c49c986-cb2d-4131-9aa1-24b6e4df585e",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "How are the IoT devices maintained and upgraded?",
-      "guid": "cdce9793-b7bc-4db3-a51e-b2eb03eda6e5"
+      "description": "It is important to understand the maintenance and upgrade process for IoT devices in order to ensure that the devices remain secure and functional",
+      "guid": "cdce9793-b7bc-4db3-a51e-b2eb03eda6e5",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "What central repository are the IoT devices reporting to?",
-      "guid": "9d7d8a2e-db11-47d6-96aa-f669ca48e5a9"
+      "description": "Determining the central repository for IoT devices will help to ensure that the devices can securely and efficiently report data to the solution.",
+      "guid": "9d7d8a2e-db11-47d6-96aa-f669ca48e5a9",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "IoT",
       "text": "Do you use Digital Twins?",
-      "guid": "5f2223ec-e8cb-4123-88ca-5017f158e3eb"
+      "description": "Asking about the use of Digital Twins is important because it can inform the design of the solution by helping to understand how IoT devices are represented and managed in the solution.",
+      "guid": "5f2223ec-e8cb-4123-88ca-5017f158e3eb",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Third-party",
       "text": "What 3rd party systems does your system integreate with? (e.g. SMTP, MongoDB)",
-      "guid": "3a93c2de-7e31-465c-9a87-a04b7a209949"
+      "description": "Asking about 3rd party system integrations is important because it helps to understand the scope of the solution and the dependencies on external systems. ",
+      "guid": "3a93c2de-7e31-465c-9a87-a04b7a209949",
+      "severity": "High"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Third-party",
       "text": "How do you plan to manage these 3rd party systems?",
-      "guid": "bda47778-f24d-4116-985c-2fa55b56a948"
+      "description": "Determining the management plan for 3rd party systems is important for ensuring that the integrations are secure, efficient, and that any changes to the systems are effectively managed.",
+      "guid": "bda47778-f24d-4116-985c-2fa55b56a948",
+      "severity": "High"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Third-party",
       "text": "What Microsoft/Azure SaaS offerings do you plan to use? (e.g. Cognitive Services, etc.)",
-      "guid": "008be7d7-e4c4-476b-9d8b-dc059bcf65de"
+      "description": "Asking about the use of Microsoft/Azure SaaS offerings is important because it helps to understand the desired capabilities and services that the solution will leverage",
+      "guid": "008be7d7-e4c4-476b-9d8b-dc059bcf65de",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "What OS can the system run on?",
-      "guid": "8a13f988-7946-49d6-9a88-6d70fa6c97be"
+      "description": "Asking about the OS requirement is important because it helps to determine the appropriate infrastructure to host the solution and ensure compatibility with the underlying technology stack.",
+      "guid": "8a13f988-7946-49d6-9a88-6d70fa6c97be",
+      "severity": "High"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "How do plan to manage updates when there's a critical security update?",
-      "guid": "9955d04c-3c49-4c98-9cb2-d1315aa124b6"
+      "description": "Determining the update management plan is crucial for ensuring that the solution remains secure and up-to-date with the latest security patches.",
+      "guid": "9955d04c-3c49-4c98-9cb2-d1315aa124b6",
+      "severity": "High"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "What is your build system?",
-      "guid": "e4df585e-cdce-4979-9b7b-cdb3b51eb2eb"
+      "description": "Knowing the build system is important for understanding the development process and the tools used to build and package the solution.",
+      "guid": "e4df585e-cdce-4979-9b7b-cdb3b51eb2eb",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "How often do you build new executable artifacts?",
-      "guid": "03eda6e5-9d7d-48a2-bdb1-17d676aaf669"
+      "description": "Asking about the build frequency helps to understand the development process and the schedule for building and deploying new versions of the solution.",
+      "guid": "03eda6e5-9d7d-48a2-bdb1-17d676aaf669",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Platform",
       "text": "How often do you deploy new executable artifacts?",
-      "guid": "ca48e5a9-5f22-423e-ae8c-b12308ca5017"
+      "description": "Asking about the deployment frequency helps to understand the development process and the schedule for deploying new versions of the solution.",
+      "guid": "ca48e5a9-5f22-423e-ae8c-b12308ca5017",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Roadmap",
       "text": "Is this a greenfield or brownfield app?",
-      "guid": "f158e3eb-3a93-4c2d-b7e3-165c3a87a04b"
+      "description": "Knowing if the app is greenfield or brownfield is important for understanding the existing infrastructure and codebase, which can affect the design and development of the solution.",
+      "guid": "f158e3eb-3a93-4c2d-b7e3-165c3a87a04b",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Roadmap",
       "text": "What optimizations do you foresee?",
-      "guid": "7a209949-bda4-4777-af24-d116785c2fa5"
+      "description": "Asking about optimizations helps to understand the desired performance characteristics and any specific optimization requirements for the solution.",
+      "guid": "7a209949-bda4-4777-af24-d116785c2fa5",
+      "severity": "Medium"
     },
     {
       "category": "Infrastructure",
       "subcategory": "Roadmap",
       "text": "What are your highest technical priorities?",
-      "guid": "5b56a948-008b-4e7d-9e4c-476b6d8bdc05"
+      "description": "Asking about technical priorities helps to understand the desired capabilities and features of the solution and to prioritize the development efforts accordingly.",
+      "guid": "5b56a948-008b-4e7d-9e4c-476b6d8bdc05",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "What OS does the service run on?",
-      "guid": "9bcf65de-8a13-4f98-a794-69d66a886d70"
+      "description": "Asking about the OS requirement is important because it helps to determine the appropriate infrastructure to host the solution and ensure compatibility with the underlying technology stack.",
+      "guid": "9bcf65de-8a13-4f98-a794-69d66a886d70",
+      "severity": "High"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "How do user's interact with the application? (e.g. Browser, RDC, Run on Desktop, etc.)",
-      "guid": "fa6c97be-9955-4d04-a3c4-9c986cb2d131"
+      "description": "Asking about user interaction helps to understand the desired user experience and the interface for accessing the solution.",
+      "guid": "fa6c97be-9955-4d04-a3c4-9c986cb2d131",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "How are you storing your code? (e.g. VSTS, TFS, GitLab, etc.)",
-      "guid": "5aa124b6-e4df-4585-bcdc-e9793b7bcdb3"
+      "description": "Asking about the code repository structure helps to understand the organization of the codebase and the relationship between different components of the solution.",
+      "guid": "5aa124b6-e4df-4585-bcdc-e9793b7bcdb3",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "Do you have one repository per code base?",
       "description": "This question is to understand if the are able to build/deploiy their services separately.",
-      "guid": "b51eb2eb-03ed-4a6e-99d7-d8a2edb117d6"
+      "guid": "b51eb2eb-03ed-4a6e-99d7-d8a2edb117d6",
+      "severity": "High"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "Do you deploy your UI separately from your API?",
-      "guid": "76aaf669-ca48-4e5a-a5f2-223ece8cb123"
+      "description": "Asking about the deployment of the UI and API separately helps to understand the deployment process and the relationship between the different components of the solution.",
+      "guid": "76aaf669-ca48-4e5a-a5f2-223ece8cb123",
+      "severity": "High"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
       "text": "What are your deployment artifacts? (e.g. Java WAR, .EXE, Container)",
-      "guid": "b4861bc3-bc14-4aea-9e65-e8d9a3aec218"
+      "description": "Asking about the deployment artifacts helps to understand the technology stack and the format of the components being deployed in the solution.",
+      "guid": "b4861bc3-bc14-4aea-9e65-e8d9a3aec218",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Containers",
-      "text": "What languages are used? (e.g. C#, PHP, Python)vvvv",
-      "guid": "e6436b07-36db-455f-9796-03334bdf9cc2"
+      "text": "What languages are used? (e.g. C#, PHP, Python)",
+      "description": "Asking about the programming languages used is important because it helps to determine the appropriate infrastructure to host the solution, ensure compatibility with the underlying technology stack, and determine the availability of resources such as libraries and tools for the chosen language. ",
+      "guid": "e6436b07-36db-455f-9796-03334bdf9cc2",
+      "severity": "High"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "How/Where does the application read it's config?",
-      "guid": "3418db61-2712-4650-9bb4-7a393a080327"
+      "description": "Asking about the generation of the configuration helps to understand the development process, the tools used to manage the configuration, and the relationship between the configuration and the codebase.",
+      "guid": "3418db61-2712-4650-9bb4-7a393a080327",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "How do you generate your config?",
-      "guid": "294798b1-578b-4219-a46c-eb5443512592"
+      "description": "Asking about the update process for the configuration helps to understand the deployment process, the tools used to manage the configuration, and the relationship between the configuration and the codebase.",
+      "guid": "294798b1-578b-4219-a46c-eb5443512592",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "How do you update config on your application?",
-      "guid": "2644293b-b628-4537-a551-19bf8e8f5854"
+      "description": "Asking about the update process for the configuration helps to understand the deployment process, the tools used to manage the configuration, and the relationship between the configuration and the codebase.",
+      "guid": "2644293b-b628-4537-a551-19bf8e8f5854",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Config",
       "text": "Could you Open Source your application without exposing credentials?",
-      "guid": "287d9cec-166c-4d07-8af9-b141a898a535"
+      "description": "Asking about open sourcing the application helps to understand the security and privacy considerations of the solution, the measures taken to protect sensitive information, and the potential impact of open sourcing on the solution.",
+      "guid": "287d9cec-166c-4d07-8af9-b141a898a535",
+      "severity": "Low"
     },
     {
       "category": "Microservices",
