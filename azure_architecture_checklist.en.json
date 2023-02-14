@@ -1159,91 +1159,121 @@
       "category": "Microservices",
       "subcategory": "Application",
       "text": "Do the processes store any state?",
-      "guid": "e737897e-71ca-47da-acea-962a1593946d"
+      "description": "Determine whether the application stores any state, which is important for designing a stateless or stateful architecture.",
+      "guid": "e737897e-71ca-47da-acea-962a1593946d",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Application",
       "text": "Do they need to support 'sticky sessions'?",
-      "guid": "a97cc392-3266-4b22-986f-4a1651bdddea"
+      "description": "Determine if the application requires sticky sessions, which is important for designing a load-balancing and auto-scaling architecture.",
+      "guid": "a97cc392-3266-4b22-986f-4a1651bdddea",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Application",
       "text": "Do they share memory with other processes?",
-      "guid": "8a487cde-b486-41bc-9bc1-4aea7e65e8d9"
+      "description": "Determine if the application shares memory with other processes, which is important for designing a containerized or VM-based architecture.",
+      "guid": "8a487cde-b486-41bc-9bc1-4aea7e65e8d9",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Exposure",
       "text": "What ports are exposed enternally? (Are these exposed to the public internet?)",
-      "guid": "a3aec218-e643-46b0-936d-b55f57960333"
+      "description": "Determine which ports are exposed externally and whether they are exposed to the public internet, which is important for designing a secure architecture and implementing network security controls.",
+      "guid": "a3aec218-e643-46b0-936d-b55f57960333",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Exposure",
       "text": "What security needs to be in place for these services? (e.g. SSL, WAF, etc.)",
-      "guid": "4bdf9cc2-3418-4db6-8271-26504bb47a39"
+      "description": "Determine what security measures need to be in place for the application, such as SSL/TLS encryption, Web Application Firewall (WAF), or network security groups, which is important for designing a secure architecture that meets compliance requirements.",
+      "guid": "4bdf9cc2-3418-4db6-8271-26504bb47a39",
+      "severity": "High"
     },
     {
       "category": "Microservices",
       "subcategory": "Exposure",
       "text": "What ports are exposed internally?",
-      "guid": "3a080327-2947-498b-8578-b219a46ceb54"
+      "description": "Determine which ports are exposed internally, which is important for designing a secure architecture and implementing network security controls.",
+      "guid": "3a080327-2947-498b-8578-b219a46ceb54",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "How do you scale processes?",
-      "guid": "43512592-2644-4293-ab62-8537a55119bf"
+      "description": "The question is asked to determine how the application scales and to identify the appropriate scaling mechanism, such as auto-scaling or manual scaling.",
+      "guid": "43512592-2644-4293-ab62-8537a55119bf",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Can you scale those processes independently?",
-      "guid": "8e8f5854-287d-49ce-a166-cd072af9b141"
+      "description": "The question is asked to determine if the application processes can be scaled independently, which is important for designing a flexible and cost-effective architecture that can handle varying workloads.",
+      "guid": "8e8f5854-287d-49ce-a166-cd072af9b141",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "What's the impact if the process dies unexpectedly?",
-      "guid": "a898a535-e737-4897-b71c-a7da8cea962a"
+      "description": "The question is asked to determine the impact of unexpected process failure and to identify the appropriate resiliency mechanisms, such as redundancy, fault tolerance, or failover, to ensure high availability and minimize downtime.",
+      "guid": "a898a535-e737-4897-b71c-a7da8cea962a",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "What is the process start time?",
-      "guid": "1593946d-a97c-4c39-8326-6b22586f4a16"
+      "description": "The question is asked to determine the process start time, which is important for analyzing performance metrics and identifying any issues related to startup time.",
+      "guid": "1593946d-a97c-4c39-8326-6b22586f4a16",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "Are there background jobs?",
-      "guid": "51bdddea-8a48-47cd-bb48-61bc3bc14aea"
+      "description": "The question is asked to determine if the application includes background jobs or scheduled tasks, which is important for designing a monitoring solution that tracks job performance and alerts on failures.",
+      "guid": "51bdddea-8a48-47cd-bb48-61bc3bc14aea",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "Are the jobs re-enterant? (can be interrupted during exe and restarted safely)",
-      "guid": "7e65e8d9-a3ae-4c21-ae64-36b0736db55f"
+      "description": "The question is asked to determine if the background jobs are re-entrant, which is important for designing a monitoring solution that ensures job continuity and prevents data corruption in case of job interruption.",
+      "guid": "7e65e8d9-a3ae-4c21-ae64-36b0736db55f",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "Are the jobs idempotent?",
-      "guid": "57960333-4bdf-49cc-8341-8db612712650"
+      "description": "The question is asked to determine if the background jobs are idempotent, which is important for designing a monitoring solution that prevents job duplication and ensures data integrity.",
+      "guid": "57960333-4bdf-49cc-8341-8db612712650",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Observability",
       "text": "How do you pinpoint the source of the outage?",
-      "guid": "4bb47a39-3a08-4032-9294-798b1578b219"
+      "description": "The question is asked to determine how to pinpoint the source of an outage, which is important for designing a monitoring solution that collects and correlates logs, metrics, and events from multiple sources, to provide insights into the root cause of an issue.",
+      "guid": "4bb47a39-3a08-4032-9294-798b1578b219",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Networking",
-      "text": "What is the expected traffic volume/pattern? (e.g. 1000 rps from 5-9, 50 rps otherwise; bursty during European daylight)",
-      "guid": "a46ceb54-4351-4259-8264-4293bb628537"
+      "text": "What is the expected traffic volume/pattern? ",
+      "description": "The question is asked to determine the expected traffic and types of traffic that the solution will have, to assist with the design and depedencies.",
+      "guid": "a46ceb54-4351-4259-8264-4293bb628537",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
@@ -1339,25 +1369,23 @@
       "category": "Observability",
       "subcategory": "Tenancy",
       "text": "Is this a single tenancy, or multiple tenant application?",
-      "guid": "4e614658-d245-47ed-9713-9b821102ce26"
-    },
-    {
-      "category": "Observability",
-      "subcategory": "Tenancy",
-      "text": "Is this a single tenancy, or multiple tenant infrastructure?",
-      "guid": "ee311e6e-883e-452f-9722-dd68c5b5c252"
+      "description": "To determine if the application needs to support multiple customers or tenants, and how to architect the solution to ensure data isolation and security.",
+      "guid": "4e614658-d245-47ed-9713-9b821102ce26",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Tenancy",
       "text": "Is this a hybrid application or infrastructure?",
-      "guid": "1e54a69a-9d33-49ac-9e7c-68d1d7565720"
+      "description": "To understand if the application will be deployed in a hybrid environment with a mix of on-premises and cloud-based resources, and how to architect the solution to ensure seamless integration and connectivity between the two.",
+      "guid": "1e54a69a-9d33-49ac-9e7c-68d1d7565720",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "High availability (HA) ",
       "text": "What is the solution's SLA?",
-      "description": "X is about x",
+      "description": "To determine the expected level of availability and reliability of the application on Azure and ensure it meets business requirements.",
       "guid": "2b4f4564-b4d9-474a-948b-663e7d260513",
       "severity": "Medium"
     },
@@ -1365,151 +1393,200 @@
       "category": "Resiliency",
       "subcategory": "High availability (HA) ",
       "text": "Are there any service dependencies that will impact this solution's availability?",
-      "guid": "a7649906-e0e2-438e-b253-c17d31d8aaab"
+      "description": "To identify potential points of failure and ensure appropriate measures are in place to mitigate them, such as redundancy or failover mechanisms.",
+      "guid": "a7649906-e0e2-438e-b253-c17d31d8aaab",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "High availability (HA) ",
       "text": "What HA features are available in the current applications?",
-      "guid": "7571549a-b815-43d8-af89-d17b73b32b5a"
+      "description": "To understand what built-in mechanisms Azure offers for achieving high availability, such as load balancing, auto-scaling, and fault-tolerant storage, and how they can be leveraged in the application architecture.",
+      "guid": "7571549a-b815-43d8-af89-d17b73b32b5a",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "Do you have any continuity plans (ie manual processes) in the event the solution fails?",
-      "guid": "4b69bad3-39ad-44e7-a68e-1d76657303b4"
+      "description": "Ensure that manual processes are in place to maintain operations in the event of solution failure, while the functional requirement is to ensure that these plans are tested and validated.",
+      "guid": "4b69bad3-39ad-44e7-a68e-1d76657303b4",
+      "severity": "High"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "What is the RTO/RPO?",
-      "guid": "67f7b9ed-5b31-4f38-a403-a822c2463cf0"
+      "description": "Ensure that the solution's recovery time objective (RTO) and recovery point objective (RPO) are defined and met, respectively, in the event of a disaster.",
+      "guid": "67f7b9ed-5b31-4f38-a403-a822c2463cf0",
+      "severity": "High"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "Is the solution business-critical?",
-      "guid": "f18ac699-ef1d-45a8-9dd4-de32c1881470"
+      "description": "Ensure that the solution's criticality is understood and documented, while the functional requirement is to ensure that the DR plan is tailored to the solution's business-criticality.",
+      "guid": "f18ac699-ef1d-45a8-9dd4-de32c1881470",
+      "severity": "High"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "Which regions do you need to deploy to?",
-      "guid": "6f7c5c0e-4e61-4465-ad24-57ed67139b82"
+      "description": "Understand the geographic regions that need to be deployed, while the functional requirement is to ensure that the DR plan accounts for the specific deployment regions.",
+      "guid": "6f7c5c0e-4e61-4465-ad24-57ed67139b82",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "Will the DR solution need to meet the same production requirements (ex. same/reduced traffic, lower performance)",
-      "guid": "1102ce26-ee31-41e6-b883-e52f4722dd68"
+      "description": "Understand the production requirements necessary for the DR solution, while the functional requirement is to ensure that the DR solution meets these requirements.",
+      "guid": "1102ce26-ee31-41e6-b883-e52f4722dd68",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "How do users access the service now, via IP, URL etc",
-      "guid": "c5b5c252-1e54-4a69-a9d3-39ac4e7c68d1"
+      "description": "Understand how users access the service, while the functional requirement is to ensure that the DR plan accounts for these access methods.",
+      "guid": "c5b5c252-1e54-4a69-a9d3-39ac4e7c68d1",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "Do you have an existing DR or Incident Recovery Plan?",
-      "guid": "931213db-d7fb-4012-b709-53f6304722ea"
+      "description": "Understand if an existing DR plan exists, while the functional requirement is to ensure that the DR plan is updated and tested regularly.",
+      "guid": "931213db-d7fb-4012-b709-53f6304722ea",
+      "severity": "Medium"
     },
     {
       "category": "Resiliency",
       "subcategory": "BC/DR (Business Continuity and Disaster Recovery)",
       "text": "How do you perform DR testing?",
-      "guid": "39d2b1ce-6320-455b-8aba-de4aad1e8c39"
+      "description": "Understand how DR testing is performed, while the functional requirement is to ensure that the DR testing is performed regularly to validate the DR plan.",
+      "guid": "39d2b1ce-6320-455b-8aba-de4aad1e8c39",
+      "severity": "Medium"
     },
     {
       "category": "Scaling",
       "subcategory": "Monitoring",
       "text": "What's your traffic volume at normal load? Peak?",
-      "guid": "ec946667-313c-4105-974c-1e945b459c37"
+      "description": "You would ask about the normal and peak traffic volumes to understand the resource requirements of the solution and to determine the scale-out requirements, such as the amount of CPU, memory, or network bandwidth that is needed to handle the expected traffic.",
+      "guid": "ec946667-313c-4105-974c-1e945b459c37",
+      "severity": "Medium"
     },
     {
       "category": "Scaling",
       "subcategory": "Monitoring",
       "text": "What is the bottleneck that causes you to scale? (e.g. Memory, CPU, bandwidth)",
-      "guid": "3f7ed716-23b3-475a-a17e-cbe48fbe64dd"
+      "description": "You would ask about the bottleneck that causes the need to scale to understand the performance limitations of the solution and to determine the key resources that need to be monitored in order to proactively manage the solution's performance and scalability.",
+      "guid": "3f7ed716-23b3-475a-a17e-cbe48fbe64dd",
+      "severity": "Medium"
     },
     {
       "category": "Scaling",
       "subcategory": "Monitoring",
       "text": "Are there any leading indicators to help you scale?",
-      "guid": "8df2e8bb-bc46-4825-9abc-9164e9909aed"
+      "description": "You would ask about leading indicators to help you scale to understand how the solution will behave under different load conditions and to determine the metrics that need to be monitored in order to proactively manage the solution's performance and scalability. This information can be used to inform the design of the monitoring and scaling components and to ensure that the solution can be effectively managed in real-time.",
+      "guid": "8df2e8bb-bc46-4825-9abc-9164e9909aed",
+      "severity": "Medium"
     },
     {
       "category": "Scaling",
       "subcategory": "Monitoring",
       "text": "Do you have scalability/performance requirements? Ex. Number of users, transactions per second, Number of SQL statements running simultaneously",
-      "guid": "8c44cf3b-2b38-418b-afa2-c02149d014a9"
+      "guid": "8c44cf3b-2b38-418b-afa2-c02149d014a9",
+      "severity": "Low"
     },
     {
       "category": "Scaling",
       "subcategory": "Scaling",
       "text": "Are there upcoming events that you anticipate growth/traffic spikes for?",
-      "guid": "23ce574d-ccbd-48ad-8aae-cca2b44ea1db"
+      "description": "You would ask about upcoming events that may cause growth or traffic spikes to understand the potential resource requirements of the solution and to determine if there are any specific scale-out requirements that need to be addressed.",
+      "guid": "23ce574d-ccbd-48ad-8aae-cca2b44ea1db",
+      "severity": "Medium"
     },
     {
       "category": "Scaling",
       "subcategory": "Scaling",
       "text": "Is your application written with microservices or as a monolith? Can the components be deployed as seperate services?",
-      "guid": "f3dd9924-8171-48d1-bca1-f625659ee568"
+      "description": "You would ask if the application is written as microservices or a monolith and if the components can be deployed as separate services to understand the modularity and scalability of the solution and to determine if there are any specific requirements for deployment or scaling.",
+      "guid": "f3dd9924-8171-48d1-bca1-f625659ee568",
+      "severity": "Medium"
     },
     {
       "category": "Scaling",
       "subcategory": "Scaling",
       "text": "Are there closely coupled systems that must also scale or will be impacted when the solution scales up?",
-      "guid": "0a38249c-9312-413d-ad7f-b012f70953f6"
+      "description": "You would ask about closely coupled systems that must also scale or will be impacted when the solution scales up to understand if there are any interdependencies or potential bottlenecks that need to be addressed in the design and implementation of the solution.",
+      "guid": "0a38249c-9312-413d-ad7f-b012f70953f6",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Security",
       "text": "What are your biggest threat vectors?",
-      "guid": "304722ea-39d2-4b1c-b632-055b2abade4a"
+      "description": "You would ask about the biggest threat vectors to understand the potential security risks and threats to the solution being built, and use this information to inform the design and implementation of security measures.",
+      "guid": "304722ea-39d2-4b1c-b632-055b2abade4a",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Security",
       "text": "Do you need Firewall? Egress/Ingress restrictions?",
-      "guid": "ad1e8c39-ec94-4666-9313-c105674c1e94"
+      "description": "You would ask about the need for a firewall and egress/ingress restrictions to determine if there are any specific network security requirements that need to be implemented, such as blocking certain types of incoming or outgoing traffic.",
+      "guid": "ad1e8c39-ec94-4666-9313-c105674c1e94",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Security",
       "text": "Are you subject to any regulatory/organizational mandates or policies?",
-      "guid": "5b459c37-3f7e-4d71-923b-375a917ecbe4"
+      "description": "You would ask about any regulatory or organizational mandates or policies to understand if the solution being built must comply with any specific regulations or policies, such as data privacy laws or industry standards, and use this information to inform the design and implementation of the solution.",
+      "guid": "5b459c37-3f7e-4d71-923b-375a917ecbe4",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Identity",
       "text": "Do you need to support identities from identity providers external to Azure Active Directory (eg., Google, Facebook, Active Directory Federation Services)?",
-      "guid": "8fbe64dd-8df2-4e8b-abc4-68255abc9164"
+      "description": "You would ask if you need to support identities from identity providers external to Azure Active Directory because if you have users who are already using a different identity provider, such as Google or Facebook, you may need to integrate that into your solution.",
+      "guid": "8fbe64dd-8df2-4e8b-abc4-68255abc9164",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Identity",
       "text": "Do you need to share your apps and resources with external users? (B2B collaboration)",
-      "guid": "e9909aed-8c44-4cf3-a2b3-818bafa2c021"
+      "description": "You would ask if you need to share your apps and resources with external users to determine if there are any requirements for B2B collaboration and if you need to implement any mechanisms to allow for this.",
+      "guid": "e9909aed-8c44-4cf3-a2b3-818bafa2c021",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Identity",
       "text": "Do you need to build user journeys with a white-label identity management solution for consumer- and customer-facing apps (B2C collaboration)",
-      "guid": "49d014a9-23ce-4574-bccb-d8ad2aaecca2"
+      "description": "You would ask if you need to build user journeys with a white-label identity management solution for consumer- and customer-facing apps to understand if there are any requirements for a branded, custom user experience for end users.",
+      "guid": "49d014a9-23ce-4574-bccb-d8ad2aaecca2",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Identity",
       "text": "What are you currently using to authenticate your users?",
-      "guid": "b44ea1db-f3dd-4992-9817-18d1dca1f625"
+      "description": "You would ask what the current authentication method is to understand if there are any existing systems or processes in place that will need to be integrated into the Azure solution.",
+      "guid": "b44ea1db-f3dd-4992-9817-18d1dca1f625",
+      "severity": "Medium"
     },
     {
       "category": "Security",
       "subcategory": "Identity",
       "text": "What are you currently using to authorize user/group/service access to your services?",
-      "guid": "659ee568-0a38-4249-a931-213dbd7fb012"
+      "description": "You would ask what is currently being used to authorize user/group/service access to determine if there are any existing access control mechanisms that will need to be integrated into the Azure solution.",
+      "guid": "659ee568-0a38-4249-a931-213dbd7fb012",
+      "severity": "Medium"
     }
   ],
   "categories": [
