@@ -467,7 +467,8 @@
       "text": "How is the solution sold?",
       "description": "Understanding the sales method can help determine the level of customization, resources, and support available, as well as any necessary certifications or requirements for sales and support personnel.",
       "guid": "2beee079-b588-4def-a497-2cd3cd21bf77",
-      "severity": "Low"
+      "severity": "Low",
+      "link": "https://azure.microsoft.com/partners/marketplace?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
@@ -498,7 +499,8 @@
       "text": "Does the solution need to run in a customer subscription but still managed by a partner?",
       "description": "Solutions that run in a customer subscription but are still managed by a partner require a clear division of responsibilities and access controls, as both the customer and the partner have varying levels of control and visibility into the solution.",
       "guid": "57cfc645-461e-41a3-b345-3a3c8639648b",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://azure.microsoft.com/en-au/products/azure-lighthouse/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
@@ -546,7 +548,8 @@
       "text": "Does the solution authenticate users with Azure AD?",
       "description": "Asking if the solution authenticates users with Azure AD is important in order to ensure secure access to the solution and integration with the centralized identity management provided by Azure Active Directory.",
       "guid": "8639648b-652d-46c1-9f50-2965388e6ded",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/active-directory-b2c/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Business",
@@ -554,7 +557,8 @@
       "text": "Is the solution tailored for specific industries?",
       "description": "Asking if the solution is tailored for specific industries is important to determine if it meets the specific regulatory, compliance, and business requirements of those industries, ensuring that it can effectively meet the needs of its target market.",
       "guid": "227dd142-b06c-421c-9999-a646f4389a7f",
-      "severity": "Low"
+      "severity": "Low",
+      "link": "https://learn.microsoft.com/azure/marketplace/marketplace-categories-industries?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Data",
@@ -562,7 +566,8 @@
       "text": "Do you have retention policy?",
       "description": "Asking about the retention policy is important to understand the duration for which data will be stored, and the procedures for deleting or archiving it. This helps ensure that sensitive information is managed and disposed of properly, and helps to meet regulatory and legal requirements for data storage.",
       "guid": "42c78e78-c06a-473a-81a4-956e6a8dc4a2",
-      "severity": "High"
+      "severity": "High",
+      "link": "https://learn.microsoft.com/azure/backup/guidance-best-practices?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Data",
@@ -570,7 +575,8 @@
       "text": "How is data backed up?",
       "description": "Asking about the data backup process is important to ensure that the data is protected and can be recovered in the event of a disaster, system failure, or other data loss event. Having a reliable data backup process helps to minimize downtime and ensure the continuity of business operations.",
       "guid": "bad37ead-53cc-47ce-8d7a-aab3571449ab",
-      "severity": "High"
+      "severity": "High",
+      "link": "https://learn.microsoft.com/azure/backup/backup-overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Data",
@@ -610,7 +616,8 @@
       "text": "What skill sets do you have on staff? (Data scientists, Developers)",
       "description": "The skill sets of staff is important to understand the resources and capabilities available for designing, developing, and maintaining the solution. This helps to ensure that the solution can be effectively implemented and managed, and that any necessary updates or changes can be made in a timely and effective manner",
       "guid": "ae01e6e8-42e5-42f4-921d-928c1b1bd521",
-      "severity": "High"
+      "severity": "High",
+      "training": "https://learn.microsoft.com/certifications/browse/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Data",
@@ -634,7 +641,8 @@
       "text": "What is currently in place for governance? ",
       "description": "Understanding the current governance helps to identify any potential gaps or conflicts that may need to be addressed, and to ensure that the solution is being implemented in a secure and compliant manner.",
       "guid": "26498f6d-bad3-47ea-b53c-c7ce1d7aaab3",
-      "severity": "High"
+      "severity": "High",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -682,7 +690,8 @@
       "text": "What environments do you have? (e.g. Dev/Test/Prod)",
       "description": "Asking about the environments (e.g. Dev/Test/Prod) is important to understand the deployment pipeline",
       "guid": "f7c0cb9f-e514-4648-bd45-7e927138b820",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/deployment-environments/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -690,7 +699,8 @@
       "text": "How are you creating new software artifacts?",
       "description": "How software artifacts are created is important to understand the development process, and to ensure that the solution is being implemented in a manner that meets the needs of the business.",
       "guid": "102cac6e-ae01-4e6e-a42e-52f4721d928c",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://azure.microsoft.com/products/devops?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -698,14 +708,17 @@
       "text": "How do you deploy the new software artifacts across your environments?",
       "description": "How software artifacts are deployed is important to understand the development process, and to ensure that the solution is being implemented in a manner that meets the needs of the business.",
       "guid": "1b1bd521-e54a-429a-add3-99cfd7b28dc9",
-      "severity": "Medium"
+      "severity": "Medium",
+      "training": "https://learn.microsoft.com/azure/devops/pipelines/?view=azure-devops&WT.mc_id=AZ-MVP-5004796",
+      "link": "https://azure.microsoft.com/products/devops?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
       "subcategory": "Compliance",
       "text": "Are you bound, by any key industry or security frameworks (ie SOC, HIPAA, ISO, PCI, NZISM)",
       "description": "Industry or security frameworks (e.g. SOC, HIPAA, ISO, PCI, NZISM) is important to understand the compliance requirements",
-      "guid": "35556202-bfe4-4563-a0d8-34a348b263e6"
+      "guid": "35556202-bfe4-4563-a0d8-34a348b263e6",
+      "link": "https://learn.microsoft.com/azure/compliance/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -721,7 +734,8 @@
       "text": "Do you have any compliance requirements?",
       "description": "Asking about compliance requirements is important to understand the compliance requirements.",
       "guid": "1d7aaab3-5714-449a-a805-3d89e89dc7b3",
-      "severity": "High"
+      "severity": "High",
+      "link": "https://learn.microsoft.com/azure/compliance/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -777,7 +791,8 @@
       "text": "Do you use CI/CD?",
       "description": "To understand if a continuous integration and delivery process is in place and if it can be utilized in Azure.",
       "guid": "48b263e6-dd60-4512-a264-98f6dbad37ea",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/devops/pipelines/?view=azure-devops&WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -785,7 +800,8 @@
       "text": "What are you using for source control?",
       "description": "To understand the source control system in place and if it can be integrated with Azure.",
       "guid": "d53cc7ce-1d7a-4aab-9571-449ab8053d89",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/devops/repos/?view=azure-devops&WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -825,7 +841,8 @@
       "text": "Is there an approval system for change?",
       "description": "To understand the change approval process and ensure it aligns with Azure capabilities.",
       "guid": "842e52f4-721d-4928-a1b1-bd521e54a29a",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/azure-monitor/alerts/itsmc-overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Governance",
@@ -857,7 +874,8 @@
       "text": "How do users interact and connect with the system? (e.g. User will VPN in and access web console)",
       "description": "To determine the user authentication and authorization method and the network accessibility.",
       "guid": "b8053d89-e89d-4c7b-93be-2a1a27f7a9e9",
-      "severity": "High"
+      "severity": "High",
+      "link": "https://learn.microsoft.com/azure/architecture/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Infrastructure",
@@ -873,7 +891,8 @@
       "text": "Is there any specific routing required? (e.g. All ingress/egress traffic must go through X)",
       "description": "To understand the routing requirements and the flow of the network traffic.",
       "guid": "ebb91a33-d90c-4ae2-ac88-13706f7c0cb9",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/virtual-network/virtual-networks-udr-overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Infrastructure",
@@ -881,7 +900,8 @@
       "text": "What Access Control Lists (ACL's) are required? (e.g. whitelist by IP, Blacklist by IP)",
       "description": "To determine the network security rules and the level of control for network traffic.",
       "guid": "fe514648-dd45-47e9-8713-8b820102cac6",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Infrastructure",
@@ -953,7 +973,8 @@
       "text": "How are the IoT devices deployed?",
       "description": "Knowing the deployment method of IoT devices is crucial for ensuring that the devices can communicate with the solution and be securely managed.vvv",
       "guid": "3c49c986-cb2d-4131-9aa1-24b6e4df585e",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://devicecatalog.azure.com/"
     },
     {
       "category": "Infrastructure",
@@ -977,7 +998,8 @@
       "text": "Do you use Digital Twins?",
       "description": "Asking about the use of Digital Twins is important because it can inform the design of the solution by helping to understand how IoT devices are represented and managed in the solution.",
       "guid": "5f2223ec-e8cb-4123-88ca-5017f158e3eb",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/digital-twins/overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Infrastructure",
@@ -1279,91 +1301,126 @@
       "category": "Microservices",
       "subcategory": "Governance",
       "text": "What are your pod security policy requirements?",
-      "guid": "a55119bf-8e8f-4585-9287-d9cec166cd07"
+      "description": "This question is important to ensure that the solution is designed with appropriate security controls and meets any compliance requirements.",
+      "guid": "a55119bf-8e8f-4585-9287-d9cec166cd07",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Governance",
       "text": "What are your access control policy requirements?",
-      "guid": "2af9b141-a898-4a53-9e73-7897e71ca7da"
+      "description": "This question helps to determine who should have access to the solution and its resources, and what level of access is required for each user or group.",
+      "guid": "2af9b141-a898-4a53-9e73-7897e71ca7da",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Governance",
       "text": "What are the High Availability/Business Continuity/Disaster Recovery requirements?",
-      "guid": "8cea962a-1593-4946-ba97-cc3923266b22"
+      "description": "This question helps to determine the level of resilience required for the solution to ensure that it can continue to operate in the event of any disruptions or failures.",
+      "guid": "8cea962a-1593-4946-ba97-cc3923266b22",
+      "severity": "Medium"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Is the service capable of load balancing across instances?",
-      "guid": "253c17d3-1d8a-4aab-9571-549ab8153d89"
+      "description": "This question is important to ensure that the solution is designed for scalability and can handle increased traffic by distributing it across multiple instances.",
+      "guid": "253c17d3-1d8a-4aab-9571-549ab8153d89",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/architecture/guide/technology-choices/load-balancing-overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Is the service capable of load balancing across regions?",
-      "guid": "f89d17b7-3b32-4b5a-97f7-b9ed5b31f38c"
+      "description": "This question is important to ensure that the solution can handle traffic from different geographic locations by distributing it to the nearest instance.",
+      "guid": "f89d17b7-3b32-4b5a-97f7-b9ed5b31f38c",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/architecture/guide/technology-choices/load-balancing-overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Microservices",
       "subcategory": "Scaling",
       "text": "Do you gracefully drain off traffic when upgrading?",
-      "guid": "403a822c-2463-4cf0-b18a-c699ef1d5a83"
+      "description": "This question is important to ensure that the solution can be upgraded or updated without causing disruptions to users, by gradually redirecting traffic away from the instance being updated.",
+      "guid": "403a822c-2463-4cf0-b18a-c699ef1d5a83",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Monitoring",
       "text": "What existing solutions are you using? Provided internally, by another provider?",
-      "guid": "dd4de32c-1881-4470-9f7c-5c0e4e614658"
+      "description": "This question is important to understand what monitoring tools and services are already in place and what additional solutions may be needed to monitor the Azure-based solution.",
+      "guid": "dd4de32c-1881-4470-9f7c-5c0e4e614658",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Monitoring",
       "text": "What resolution/metrics do you need to understand the performance of your app/understand if you are meeting SLA?",
-      "guid": "d2457ed6-7139-4b82-8102-ce26ee311e6e"
+      "description": "This question helps to identify the key performance metrics that need to be monitored to ensure that the solution is meeting its performance objectives and meeting SLA requirements.",
+      "guid": "d2457ed6-7139-4b82-8102-ce26ee311e6e",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Monitoring",
       "text": "How do you know if your system stops meeting it's external SLA?",
-      "guid": "883e52f4-722d-4d68-a5b5-c2521e54a69a"
+      "description": " This question helps to identify how external SLA breaches will be identified, monitored and managed, including notification and response procedures.",
+      "guid": "883e52f4-722d-4d68-a5b5-c2521e54a69a",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Monitoring",
       "text": "How do you know if your system stops serving?",
-      "guid": "9d339ac4-e7c6-48d1-b756-57202b4f4564"
+      "description": " This question helps to identify the appropriate monitoring tools and alerts needed to detect if the system stops serving and to take appropriate actions to restore service.",
+      "guid": "9d339ac4-e7c6-48d1-b756-57202b4f4564",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Data",
       "text": "How do you know if your system is serving corrupt or inaccurate data?",
-      "guid": "b4d974a7-48b6-463e-9d26-0513a7649906"
+      "description": "This question is important to ensure that the solution is designed with appropriate data integrity controls, including data validation and error handling mechanisms, to prevent corrupt or inaccurate data from being served to users.",
+      "guid": "b4d974a7-48b6-463e-9d26-0513a7649906",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Monitoring",
       "text": "What is needed at the network level, platform level, application level, user experience level?",
-      "guid": "e0e238ee-253c-417d-91d8-aaab7571549a"
+      "description": "This question helps to identify the different layers of the solution that need to be monitored for potential issues, including network performance, platform availability, application performance, and user experience.",
+      "guid": "e0e238ee-253c-417d-91d8-aaab7571549a",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Logs",
       "text": "How are logs collected? aggregated?",
-      "guid": "b8153d89-f89d-417b-93b3-2b5a67f7b9ed"
+      "description": "This question is important to ensure that logging is properly configured and aggregated in a centralized location to facilitate troubleshooting and monitoring of the system.",
+      "guid": "b8153d89-f89d-417b-93b3-2b5a67f7b9ed",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/azure-monitor/logs/data-platform-logs?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Observability",
       "subcategory": "Alerts",
       "text": "How do you know if the service experiences problems?",
-      "guid": "5b31f38c-403a-4822-a246-3cf0f18ac699"
+      "description": "This question helps to identify the appropriate monitoring tools and alerts needed to detect and respond to service problems, including application errors, performance issues, and downtime.",
+      "guid": "5b31f38c-403a-4822-a246-3cf0f18ac699",
+      "severity": "Medium"
     },
     {
       "category": "Observability",
       "subcategory": "Alerts",
       "text": "Who will be receiving the alerts?",
-      "guid": "ef1d5a83-dd4d-4e32-a188-14706f7c5c0e"
+      "description": "This question helps to ensure that the right stakeholders are notified promptly when the system experiences issues or disruptions, and that appropriate response and escalation procedures are in place to minimize the impact on users.",
+      "guid": "ef1d5a83-dd4d-4e32-a188-14706f7c5c0e",
+      "severity": "Medium",
+      "training": "https://learn.microsoft.com/shows/azure-friday/azure-monitor-action-groups?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://learn.microsoft.com/azure/azure-monitor/alerts/action-groups?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Observability",
@@ -1387,7 +1444,9 @@
       "text": "What is the solution's SLA?",
       "description": "To determine the expected level of availability and reliability of the application on Azure and ensure it meets business requirements.",
       "guid": "2b4f4564-b4d9-474a-948b-663e7d260513",
-      "severity": "Medium"
+      "severity": "Medium",
+      "training": "https://learn.microsoft.com/training/modules/choose-azure-services-sla-lifecycle/?WT.mc_id=AZ-MVP-5004796",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/manage/monitor/service-level-objectives?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Resiliency",
@@ -1419,7 +1478,8 @@
       "text": "What is the RTO/RPO?",
       "description": "Ensure that the solution's recovery time objective (RTO) and recovery point objective (RPO) are defined and met, respectively, in the event of a disaster.",
       "guid": "67f7b9ed-5b31-4f38-a403-a822c2463cf0",
-      "severity": "High"
+      "severity": "High",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-business-continuity-disaster-recovery?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Resiliency",
@@ -1435,7 +1495,8 @@
       "text": "Which regions do you need to deploy to?",
       "description": "Understand the geographic regions that need to be deployed, while the functional requirement is to ensure that the DR plan accounts for the specific deployment regions.",
       "guid": "6f7c5c0e-4e61-4465-ad24-57ed67139b82",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://azure.microsoft.com/explore/global-infrastructure/geographies/?WT.mc_id=AZ-MVP-5004796#overview"
     },
     {
       "category": "Resiliency",
@@ -1467,7 +1528,8 @@
       "text": "How do you perform DR testing?",
       "description": "Understand how DR testing is performed, while the functional requirement is to ensure that the DR testing is performed regularly to validate the DR plan.",
       "guid": "39d2b1ce-6320-455b-8aba-de4aad1e8c39",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/site-recovery/?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Scaling",
@@ -1498,7 +1560,8 @@
       "subcategory": "Monitoring",
       "text": "Do you have scalability/performance requirements? Ex. Number of users, transactions per second, Number of SQL statements running simultaneously",
       "guid": "8c44cf3b-2b38-418b-afa2-c02149d014a9",
-      "severity": "Low"
+      "severity": "Low",
+      "link": "https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview?tabs=net&WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Scaling",
@@ -1538,7 +1601,8 @@
       "text": "Do you need Firewall? Egress/Ingress restrictions?",
       "description": "You would ask about the need for a firewall and egress/ingress restrictions to determine if there are any specific network security requirements that need to be implemented, such as blocking certain types of incoming or outgoing traffic.",
       "guid": "ad1e8c39-ec94-4666-9313-c105674c1e94",
-      "severity": "Medium"
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/firewall/overview?WT.mc_id=AZ-MVP-5004796"
     },
     {
       "category": "Security",
